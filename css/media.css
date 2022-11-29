@@ -1,0 +1,58 @@
+@media (max-width:899px){
+    .card{
+        position:fixed;
+        background-color: #001706;
+        opacity:0.8;
+        top:225px;
+        width:70%;
+        left:10vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:1.2rem;
+        flex-basis:50px;
+        flex-shrink:3;
+    }
+    /*.card:hover{
+        opacity:1;
+        width:80%;
+        height:190%;
+        font-size:1.1rem;
+        font-family:'Courier New', Courier, monospace;
+        border-radius:15%;
+    }*/
+    /*.card-img-top{
+        height:160px;
+        width:173px;
+    }*/
+    .card-2{
+        position:fixed;
+        background-color: #001706;
+        opacity: 0.8;
+        top:225px;
+        width:50%;
+        right:40vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:1.2rem;
+        flex-basis:50px;
+        flex-shrink:3;
+    }
+    /*.card-2:hover{
+        opacity:1;
+        width:80%;
+        height:190%;
+        font-size:1.1rem;
+        font-family:'Courier New', Courier, monospace;
+        border-radius:15%;
+    }*/
+    .card-3{
+        position:fixed;
+        background-color: #001706;
+        opacity: 0.8;
+        top:225px;
+        width:50%;
+        right:5vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:1.2rem;
+        flex-basis:50px;
+        flex-shrink:3;
+    }
+}

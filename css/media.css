@@ -189,7 +189,6 @@
         width:35%;
         left:3vw;
         font-family:'Courier New', Courier, monospace;
-
         font-size:1.2rem;
         flex-basis:50px;
         flex-shrink:3;
@@ -830,18 +829,19 @@
     .card{
         position:absolute;
         background: none;
-        top:20vh;
-        width:55%;
+        top:18vh;
+        width:57%;
         left:25vw;
-        height:70vh;
+        height:75vh;
         font-family:'Courier New', Courier, monospace;
         font-size:1.3rem;
         flex-basis:50px;
         flex-shrink:3;
         border-style: dotted;
-        border-width:4px;
+        border-width:2px;
         border-style: solid;
         border-color: rgb(224, 105, 105);
+        text-align: center;
     }
     .card:hover{
         display: none;
@@ -852,14 +852,15 @@
     }
     .boton-sobre-mi{
         position:absolute;
-        top:19vh;
+        top:17vh;
         right:1vw;
+        height:20vw;
     }
     .card-2{
         position:absolute;
         background: none;
         opacity:0.8;
-        top:95vh;
+        top:98vh;
         width:60%;
         height:55vh;
         left:25vw;
@@ -868,9 +869,10 @@
         flex-basis:50px;
         flex-shrink:3;
         border-style: dotted;
-        border-width:4px;
+        border-width:2px;
         border-style: solid;
         border-color: rgb(224, 105, 105);
+        text-align: center;
     }
     .card-2:hover{
         display: none;
@@ -879,18 +881,19 @@
         position:absolute;
         background: none;
         opacity:0.8;
-        top:160vh;
-        width:60%;
+        top:164vh;
+        width:65%;
         height:62vh;
         left:25vw;
         font-family:'Courier New', Courier, monospace;
-        font-size:1.3rem;
+        font-size:1.2rem;
         flex-basis:50px;
         flex-shrink:3;
         border-style: dotted;
-        border-width:4px;
+        border-width:2px;
         border-style: solid;
         border-color: rgb(224, 105, 105);
+        text-align: center;
     }
     .card-3:hover{
         display: none;
@@ -959,7 +962,7 @@
         position: absolute;
         width:65%;
         height:auto;
-        top:20vh;
+        top:19vh;
         left:21vw;
         background-color: #0d110d;
         opacity:0.9;
@@ -1001,9 +1004,9 @@
         position: absolute;
         width:65%;
         height:auto;
-        top:80vh;
+        top:102vh;
         left:21vw;
-        background-color: #0d110d;
+        background: none;
         opacity:0.9;
     }
     .titulo-objetivo{
@@ -1038,9 +1041,9 @@
         position: absolute;
         width:65%;
         height:auto;
-        top:145vh;
+        top:175vh;
         left:21vw;
-        background-color: #0d110d;
+        background:none;
         opacity:0.9;
     }
     .titulo-por-que-soy-desarrollador-web-fronted{
@@ -1049,7 +1052,7 @@
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size:1.2rem;
         text-align: center;
-        text-decoration:underline 4px red;
+        text-decoration:underline 2px red;
     }
     .titulo-por-que-soy-desarrollador-web-fronted::first-letter{
         color: rgb(91, 117, 38);
@@ -1072,9 +1075,9 @@
         position: absolute;
         width:65%;
         height:auto;
-        top:225vh;
+        top:245vh;
         left:21vw;
-        background-color: #0d110d;
+        background: none;
         opacity:0.9;
     }
     .titulo-que-conocimientos-tengo{
@@ -1107,7 +1110,7 @@
         flex-direction:row;
         position: absolute;
         font-family: 'lucida sans';
-        top:160vh;
+        top:170vh;
         left:31%;
         width:auto;
         color: white;
@@ -1119,7 +1122,7 @@
         flex-direction:row;
         position: absolute;
         font-family: 'lucida sans';
-        top:170vh;
+        top:180vh;
         left:30%;
         width:auto;
         color: white;
@@ -1130,7 +1133,7 @@
         display: flex;
         flex-direction: row;
         position: absolute;
-        top:350vh;
+        top:370vh;
         width:100%;
         height:10%;
         background-color: #262727;
@@ -1184,12 +1187,17 @@
     .card-proyectos-finalizados{
         position:absolute;
         opacity:0.8;
-        top:30vh;
-        width:50%;
+        top:36vh;
+        width:52%;
         height:50%;
         left:30vw;
+        background:none;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size:1rem;
+        border-style:dotted;
+        border-width:3px;
+        border-style: solid;
+        border-color: rgb(224, 105, 105);
     }
     .botton-visita-mi-repo{
         position:absolute;
@@ -1238,13 +1246,17 @@
     }
     .card-2-proyectos-finalizados{
         position:absolute;
-        background-color: #001706;
+        background:none;
         opacity:0.8;
         top:70vh;
         width:100%;
-        height:118%;
+        height:119%;
         left:0vw;
         font-size:1rem;
+        border-style:dotted;
+        border-width:3px;
+        border-style: solid;
+        border-color: rgb(224, 105, 105);
     }
     .botton-visita-mi-repo-2{
         position:absolute;

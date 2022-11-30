@@ -860,7 +860,7 @@
         position:absolute;
         background: none;
         opacity:0.8;
-        top:98vh;
+        top:100vh;
         width:60%;
         height:55vh;
         left:25vw;
@@ -1194,10 +1194,6 @@
         background:none;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size:1rem;
-        border-style:dotted;
-        border-width:3px;
-        border-style: solid;
-        border-color: rgb(224, 105, 105);
     }
     .botton-visita-mi-repo{
         position:absolute;
@@ -1253,10 +1249,6 @@
         height:119%;
         left:0vw;
         font-size:1rem;
-        border-style:dotted;
-        border-width:3px;
-        border-style: solid;
-        border-color: rgb(224, 105, 105);
     }
     .botton-visita-mi-repo-2{
         position:absolute;

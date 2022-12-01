@@ -12,8 +12,8 @@
         <meta name="description" content="Seguí la cotización del dólar minuto a minuto, conocé el precio del dólar en Dolarhoy.com">
         <meta name="author" content="portfolio.com">
         <!--<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>!-->
-        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/media.css">
         <link rel="stylesheet" href="particlesjs-config.json">
@@ -23,7 +23,7 @@
     <body>
         <div id="container">
             <nav>
-                <ul class="menu-horizontal">
+                <ul class="menu-horizontal"data-aos="fade-right"data-aos-duration="2000">
                     <li><a href="index.html">Inicio</a>
                         <li>
                         <a>Contacto</a>
@@ -38,7 +38,7 @@
                 </ul>
         </div>
         <section class="container">
-            <div class="card" >
+            <div class="card"data-aos="fade-up"data-aos-duration="2000" >
                 <img src="foto/foto curriculum.jpg" class="card-img-top" alt="foto de perfil">
                 <div class="card-body">
                     <h5 class="card-title-quien-soy">¿Quien soy?</h5>
@@ -46,14 +46,14 @@
                     <a  href="sobre-mi.html" class="botton-conoceme-mas btn btn-primary">Conoceme mas</a>
                 </div>
             </div>
-            <div class="card-2">
+            <div class="card-2" data-aos="fade-up"data-aos-duration="3000">
                 <img src="foto/argentina.jpg" class="card-img-top" alt="Argentina">
                 <div class="card-body-2">
                     <h5 class="card-title-de-donde-soy">¿De donde soy?</h5>
                     <p class="card-text-de-donde-soy card-text-2">Soy de Buenos Aires, Argentina.</p>
                 </div>
             </div>
-            <div class="card-3">
+            <div class="card-3" data-aos="fade-up"data-aos-duration="3000">
                 <img src="foto/programacion.jpg" class="card-img-top" alt="Argentina">
                 <div class="card-body-3">
                     <h5 class="card-title-como-me-defino">¿Como me defino?</h5>
@@ -61,7 +61,7 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
+        <footer class="footer"data-aos="flip-up">
             <div class="redes-sociales">
                 <div class="Instagram-index">
                     <img class="icono-instagram-index" src="foto/insta.jpg" alt="icono red social instagram" height="30px"><a href="https://www.instagram.com/accounts/login/"target="_blank">Instagram</a>
@@ -82,5 +82,9 @@
         <script src="app.js"></script>
         <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
         <div id="google_translate_element"></div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

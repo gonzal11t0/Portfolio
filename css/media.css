@@ -1,5 +1,5 @@
 
-@media(min-width:900px) and (max-width:1500px){
+@media(min-width:900px) and (max-width:1440px){
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 * { 
     margin: 0; 

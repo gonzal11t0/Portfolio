@@ -13,8 +13,8 @@
         <meta name="author" content="portfolio.com">
         <link href="foto/programacion-2.jpg" rel="icon" >
         <!--<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>!-->
-
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/media.css">
         <link rel="stylesheet" href="particlesjs-config.json">
@@ -24,7 +24,7 @@
     <body>
         <div id="container">
             <nav>
-                <ul class="menu-horizontal">
+                <ul class="menu-horizontal"data-aos="flip-up">
                     <li><a href="index.html">Inicio</a>
                         <li>
                         <a  href="">Contacto</a>
@@ -39,7 +39,7 @@
                 </ul>
         </div>
         <section class="conocemes">
-            <div class="conoceme">
+            <div class="conoceme"data-aos="fade-up"data-aos-duration="2000" >
                 <h1 class="titulo-conoceme">¿Quien soy?</h1>
                 <p class="parrafo-conoceme">Soy Argentino,graduado de la escuela secundaria, soy un estudiante de la carrera 
                         lic.Sistemas en la universidad General Sarmiento(BS.AS)
@@ -47,14 +47,14 @@
                     stack junior  de manera autodidacta.
                 </p>
             </div>
-            <div class="conoceme-2">
+            <div class="conoceme-2"data-aos="fade-right">
                 <h1 class="titulo-objetivo">Mis objetivos</h1>
                 <p class="parrafo-objetivo">Mi objetivo es ir dia a dia desarrollandome e ir aprendiendo nuevos conocimientos para ir aplicandolos en proyectos personales para demostrar
                     de lo que soy capas de programar; a nivel laboral mi objetivo es Formar parte de una empresa donde pueda crecer profesional
                     y personalmente, aplicando mis habilidades y conocimientos.
                 </p>
             </div>
-            <div class="conoceme-3">
+            <div class="conoceme-3"data-aos="fade-left">
                 <h1 class="titulo-por-que-soy-desarrollador-web-fronted">¿por que soy desarrollador web fronted</h1>
                 <p class="parrafo-por-que-soy-desarrollador-web-fronted">
                     <li>Me apaciona desarrollar pagina</li>
@@ -62,7 +62,7 @@
                     <li>Me gusta desarrollar los pedidos de los clientes y ver su satisfacción</li>
                 </p>
             </div>
-            <div class="conoceme-4">
+            <div class="conoceme-4" data-aos="flip-down">
                 <h1 class="titulo-que-conocimientos-tengo">¿Que conocimientos tengo?</h1>
                 <p class="parrafo-que-conocimientos-tengo">
                     <li>HTML(Intermedio)</li>
@@ -80,11 +80,11 @@
             <div class="cv">
                 <a href="curriculum.pdf"target="_blank" class="cv">Descargar curriculum</a>
             </div>
-            <div class="test-competencia">
+            <div class="test-competencia"data-aos="fade-left">
                 <a href="Test_Competencias.pdf"target="_blank" class="cv">Test Competencias</a>
             </div>
         </section>
-        <footer class="footer">
+        <footer class="footer"data-aos="fade-rigth">
             <div class="redes-sociales-sobre-mi">
                 <div class="Instagram-sobre-mi">
                     <img class="icono-instagram-sobre-mi" src="foto/insta.jpg" alt="icono de red social Instagram" height="30px"><a href="https://www.instagram.com/accounts/login/"target="_blank">Instagram</a>
@@ -105,5 +105,9 @@
         <script src="app.js"></script>
         <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
         <div id="google_translate_element"></div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

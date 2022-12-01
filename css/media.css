@@ -644,6 +644,10 @@
     }
 }
 @media (min-width:360px) and (max-width:559px){
+    body{
+        background: none;
+        background: #262727;
+    }
     nav{
         max-width:900px;
         margin:auto;
@@ -905,7 +909,7 @@
         top:235vh;
         width:100%;
         height:10%;
-        background-color: #262727;
+        background-color: #000000;
         opacity: 0.9;
         font-family: 'lucida sans';
         font-size:0.5rem;
@@ -1075,7 +1079,7 @@
         position: absolute;
         width:65%;
         height:auto;
-        top:245vh;
+        top:255vh;
         left:21vw;
         background: none;
         opacity:0.9;
@@ -1122,7 +1126,7 @@
         flex-direction:row;
         position: absolute;
         font-family: 'lucida sans';
-        top:180vh;
+        top:183vh;
         left:30%;
         width:auto;
         color: white;
@@ -1136,7 +1140,7 @@
         top:370vh;
         width:100%;
         height:10%;
-        background-color: #262727;
+        background-color: #000000;
         opacity: 0.9;
         font-size:0.5rem;
     }
@@ -1303,7 +1307,7 @@
         top:170vh;
         width:100%;
         height:10%;
-        background-color: #262727;
+        background-color: #000000;
         opacity: 0.9;
         font-size:0.5rem;
     }

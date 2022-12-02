@@ -1,4 +1,3 @@
-
 @media(min-width:900px) and (max-width:1440px){
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 * { 
@@ -1519,16 +1518,13 @@ nav{
         top:18vh;
         width:57%;
         left:25vw;
-        height:75vh;
+        height:81vh;
         font-family:'Courier New', Courier, monospace;
         font-size:1.3rem;
         flex-basis:50px;
         flex-shrink:3;
-        border-style: dotted;
-        border-width:2px;
-        border-style: solid;
-        border-color: rgb(224, 105, 105);
         text-align: center;
+        border: none;
     }
     .card:hover{
         display: none;
@@ -1547,7 +1543,7 @@ nav{
         position:absolute;
         background: none;
         opacity:0.8;
-        top:102vh;
+        top:120vh;
         width:60%;
         height:55vh;
         left:25vw;
@@ -1555,10 +1551,6 @@ nav{
         font-size:1.3rem;
         flex-basis:50px;
         flex-shrink:3;
-        border-style: dotted;
-        border-width:2px;
-        border-style: solid;
-        border-color: rgb(224, 105, 105);
         text-align: center;
     }
     .card-2:hover{
@@ -1568,7 +1560,7 @@ nav{
         position:absolute;
         background: none;
         opacity:0.8;
-        top:164vh;
+        top:175vh;
         width:65%;
         height:62vh;
         left:25vw;
@@ -1576,10 +1568,6 @@ nav{
         font-size:1.2rem;
         flex-basis:50px;
         flex-shrink:3;
-        border-style: dotted;
-        border-width:2px;
-        border-style: solid;
-        border-color: rgb(224, 105, 105);
         text-align: center;
     }
     .card-3:hover{
@@ -1592,8 +1580,6 @@ nav{
         top:235vh;
         width:100%;
         height:10%;
-        background-color: #000000;
-        opacity: 0.9;
         font-family: 'lucida sans';
         font-size:0.5rem;
     }
@@ -1691,7 +1677,7 @@ nav{
         position: absolute;
         width:65%;
         height:auto;
-        top:102vh;
+        top:110vh;
         left:21vw;
         background: none;
         opacity:0.9;
@@ -1728,7 +1714,7 @@ nav{
         position: absolute;
         width:65%;
         height:auto;
-        top:175vh;
+        top:215vh;
         left:21vw;
         background:none;
         opacity:0.9;
@@ -1762,7 +1748,7 @@ nav{
         position: absolute;
         width:65%;
         height:auto;
-        top:255vh;
+        top:320vh;
         left:21vw;
         background: none;
         opacity:0.9;
@@ -1797,7 +1783,7 @@ nav{
         flex-direction:row;
         position: absolute;
         font-family: 'lucida sans';
-        top:170vh;
+        top:220vh;
         left:31%;
         width:auto;
         color: white;
@@ -1809,7 +1795,7 @@ nav{
         flex-direction:row;
         position: absolute;
         font-family: 'lucida sans';
-        top:183vh;
+        top:240vh;
         left:30%;
         width:auto;
         color: white;
@@ -1820,7 +1806,7 @@ nav{
         display: flex;
         flex-direction: row;
         position: absolute;
-        top:370vh;
+        top:470vh;
         width:100%;
         height:10%;
         background-color: #000000;
@@ -1884,15 +1870,15 @@ nav{
     }
     .botton-visita-mi-repo{
         position:absolute;
-        top:40vh;
+        top:60vh;
         right:1vw;
-        font-size:0.7rem;
+        font-size:0.6rem;
     }
     .botton-visita-mi-pagina{
         position:absolute;
-        top:45vh;
-        right:1vw;
-        font-size:0.7rem; 
+        top:60vh;
+        left:1vw;
+        font-size:0.6rem; 
     }
     .card-proyectos-finalizados:hover{
         display: none;
@@ -1931,7 +1917,7 @@ nav{
         position:absolute;
         background:none;
         opacity:0.8;
-        top:70vh;
+        top:90vh;
         width:100%;
         height:119%;
         left:0vw;
@@ -1939,13 +1925,13 @@ nav{
     }
     .botton-visita-mi-repo-2{
         position:absolute;
-        top:48vh;
-        right:1vw;
+        top:65vh;
+        left:1vw;
         font-size:0.7rem;
     }
     .botton-visita-mi-pagina-2{
         position:absolute;
-        top:54vh;
+        top:65vh;
         right:1vw;
         font-size:0.7rem;
     }
@@ -1987,11 +1973,9 @@ nav{
         flex-direction: row;
         position: absolute;   
         font-family: 'lucida sans';
-        top:170vh;
+        top:200vh;
         width:100%;
         height:10%;
-        background-color: #000000;
-        opacity: 0.9;
         font-size:0.5rem;
     }
     .Instagram-proyectos-realizados{

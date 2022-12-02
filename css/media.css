@@ -1926,13 +1926,13 @@ nav{
     .botton-visita-mi-repo-2{
         position:absolute;
         top:65vh;
-        right:1vw;
+        right:0vw;
         font-size:0.7rem;
     }
     .botton-visita-mi-pagina-2{
         position:absolute;
         top:65vh;
-        left:1vw;
+        left:0vw;
         font-size:0.7rem;
     }
     .card-2-proyectos-finalizados:hover{

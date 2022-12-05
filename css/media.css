@@ -1881,9 +1881,9 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:0.6vh;
-        right:1vw;
-        font-size:0.7rem;
+        top:0vh;
+        left:0vw;
+        font-size:1rem;
     }
     .icono-email-sobre-mi{
         display:none;

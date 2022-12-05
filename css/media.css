@@ -225,8 +225,9 @@ nav{
 }
 .botton-conoceme-mas{
     position:absolute;
-    top:83vh;
+    top:92.7vh;
     left:50vw;
+    width:15vw;
 }
 .card-2{
     position:absolute;
@@ -894,7 +895,7 @@ nav{
         height:auto;
         left:35vw;
         font-family:'Courier New', Courier, monospace;
-        font-size:1.2rem;
+        font-size:1.4rem;
         flex-basis:50px;
         flex-shrink:3;
     }
@@ -912,6 +913,7 @@ nav{
         position: absolute;
         top:81.2vh;
         left:40vw;
+        font-size:1.2rem;
     }
     .card-2{
         position:absolute;
@@ -1472,13 +1474,11 @@ nav{
     .barra-navegacion li {
         list-style:none;
         display:inline-block;
-    }
-    
+    }    
     .barra-navegacion .logo { 
         color:#014001;
         font-size:10px;
-    }
-    
+    }    
     .barra-navegacion a {
         text-decoration: none;
         color: #fff;
@@ -1488,13 +1488,11 @@ nav{
         text-transform: uppercase;
         border-bottom: 1px solid transparent;
         transition: .5s ease;
-    }
-    
+    }    
     .barra-navegacion a:hover {
         color: #3dff3e;
         border-bottom: 1px solid currentcolor;
-    }
-    
+    }    
     .contenido-descripcion {
         width:125%;
         display: flex;
@@ -1505,19 +1503,16 @@ nav{
     .contenido-descripcion .titulo {
         text-transform: uppercase;
         letter-spacing: 5px;
-    }
-    
+    }    
     .contenido-descripcion .titulo span:first-child {
         font-size:50px; 
         display: block;
         font-weight:300;
-    }
-    
+    }   
     .contenido-descripcion .titulo span:last-child {
         font-weight:900;
         font-size: 100px;
-    }
-    
+    }    
     .contenido-descripcion .btn-link {
         display: inline-block;
         padding: 10px 20px;
@@ -1565,8 +1560,9 @@ nav{
     }
     .botton-conoceme-mas{
         position:absolute;
-        top:80vh;
+        top:93vh;
         left:35vw;
+        width:40vw;
         height:10vw;
     }
     .card-2{
@@ -2213,7 +2209,7 @@ nav{
         background: none;
         top:18vh;
         width:57%;
-        left:10vw;
+        left:20vw;
         height:75vh;
         font-family:'Courier New', Courier, monospace;
         font-size:1.1rem;
@@ -2239,8 +2235,9 @@ nav{
     }
     .botton-conoceme-mas{
         position: absolute;
-        top:60vh;
-        left:25vw;
+        top:70vh;
+        left:33vw;
+        width:40vw;
     }
     .card-2{
         position:absolute;
@@ -2276,7 +2273,7 @@ nav{
         top:180vh;
         width:65%;
         height:2vh;
-        left: 10vw;
+        left:25vw;
         font-family:'Courier New', Courier, monospace;
         font-size:1rem;
         flex-basis:50px;

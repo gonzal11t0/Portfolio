@@ -1548,7 +1548,7 @@ nav{
     .card{
         position:absolute;
         background: none;
-        top:38vh;
+        top:28vh;
         width:57%;
         left:25vw;
         height:81vh;
@@ -1666,7 +1666,7 @@ nav{
         position: absolute;
         width:65%;
         height:auto;
-        top:19vh;
+        top:27vh;
         left:21vw;
         background-color: #0d110d;
         opacity:0.9;
@@ -1708,7 +1708,7 @@ nav{
         position: absolute;
         width:65%;
         height:auto;
-        top:110vh;
+        top:113vh;
         left:21vw;
         background: none;
         opacity:0.9;

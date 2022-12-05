@@ -1393,7 +1393,7 @@ nav{
     .menu-horizontal > li:hover{
         background-color:#17a2b8;
         text-decoration:wavy;
-        transition:2s;
+        transition:20s;
     }
     .menu-vertical{
         position:absolute;
@@ -1408,7 +1408,7 @@ nav{
     }
     .menu-vertical li:hover{
         background-color:#01270a;
-        transition: 2s;
+        transition: 20s;
         transform: translateX(6px);
     }
     .menu-horizontal li a{
@@ -2112,7 +2112,7 @@ nav{
     }
     .menu-vertical li:hover{
         background-color:#01270a;
-        transition: 2s;
+        transition:10s;
         transform: translateX(6px);
     }
     .menu-horizontal li a{

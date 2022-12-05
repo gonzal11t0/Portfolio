@@ -47,7 +47,7 @@ nav{
 }
 .menu-vertical li:hover{
     background-color:#01270a;
-    transition:1s;
+    transition:10s;
     transform: translateX(6px);
 }
 .menu-horizontal li a{

@@ -1206,8 +1206,9 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:0vh;
-        left:0vw;
+        top:5vh;
+        right:0.5vw;
+        font-size:0.7rem;
     }
     .card-proyectos-finalizados{
         position:absolute;
@@ -1880,7 +1881,7 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:0vh;
+        top:0.7vh;
         right:1vw;
         font-size:0.7rem;
     }
@@ -2599,7 +2600,7 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:2vh;
+        top:10vh;
         right:1vw;
         font-size:0.5rem;
     }

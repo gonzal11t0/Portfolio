@@ -294,22 +294,24 @@ nav{
     flex-shrink:3;
     position: absolute;
     top:1vh;
-    left:30vw;
+    left:40vw;
+    justify-content: center;
+    text-align: center;
 }
 .whatsapp-index{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
     top:1vh;
-    left:55vw;
+    left:75vw;
 }
 .email-index{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
-    top:1vh;
-    right:0.5vw;
-    font-size:1rem;
+    top:6vh;
+    right:20vw;
+    font-size:1.2rem;
 }
 .conocemes{
     display:flex;
@@ -522,9 +524,10 @@ nav{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
-    top:1vh;
-    right:0.5vw;
+    top:6vh;
+    right:30vw;
     font-size:1rem;
+    text-align: center;
 }
 .card-proyectos-finalizados{
     position:fixed;
@@ -699,8 +702,8 @@ nav{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
-    top:0vh;
-    right:0.5vw;
+    top:5vh;
+    right:20vw;
 }
 }
 @media (min-width:560px) and (max-width:899px){
@@ -911,7 +914,7 @@ nav{
     }
     .botton-conoceme-mas{
         position: absolute;
-        top:81.2vh;
+        top:86vh;
         left:40vw;
         font-size:1.2rem;
     }
@@ -963,14 +966,14 @@ nav{
         flex-shrink:3;
         position: absolute;
         top:0vh;
-        left:2vw;
+        left:0vw;
     }
     .Git-Hub-index{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
         top:0vh;
-        left:30vw;
+        left:26vw;
     }
     .whatsapp-index{
         flex-basis:50px;
@@ -985,6 +988,7 @@ nav{
         position: absolute;
         top:0vh;
         right:0.5vw;
+        font-size:0.7rem;
     }
     .conocemes{
         display:flex;
@@ -1182,28 +1186,29 @@ nav{
         flex-shrink:3;
         position: absolute;
         top:0vh;
-        left:2vw;
+        left:0vw;
     }
     .Git-Hub-sobre-mi{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
         top:0vh;
-        left:30vw;
+        left:75vw;
     }
     .whatsapp-sobre-mi{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
         top:5vh;
-        left:35vw;
+        left:0vw;
     }
     .email-sobre-mi{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:0vh;
+        top:5vh;
         right:0.5vw;
+        font-size:0.7rem;
     }
     .card-proyectos-finalizados{
         position:absolute;
@@ -1346,15 +1351,16 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:5vh;
+        top:0vh;
         right:0vw;
     }
     .email-proyectos-realizados{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:0vh;
+        top:5vh;
         right:0.5vw;
+        font-size:0.8rem;
     }
 }
 @media (min-width:360px) and (max-width:559px){
@@ -1499,7 +1505,6 @@ nav{
         height:100%;
         align-items: center;
     }
-    
     .contenido-descripcion .titulo {
         text-transform: uppercase;
         letter-spacing: 5px;
@@ -1648,7 +1653,7 @@ nav{
         position: absolute;
         top:0vh;
         right:1vw;
-        font-size:0.8rem;
+        font-size:0.6rem;
     }
     .icono-email-index{
         display:none;
@@ -1844,7 +1849,7 @@ nav{
         flex-shrink:3;
         position: absolute;
         top:0vh;
-        left:2vw;
+        left:1vw;
         font-size:1rem;
     }
     .icono-instagram-sobre-mi{
@@ -1878,7 +1883,7 @@ nav{
         position: absolute;
         top:0vh;
         right:1vw;
-        font-size:0.8rem;
+        font-size:0.7rem;
     }
     .icono-email-sobre-mi{
         display:none;
@@ -1907,7 +1912,15 @@ nav{
         font-size:0.6rem; 
     }
     .card-proyectos-finalizados:hover{
-        display: none;
+        position:absolute;
+        opacity:0.8;
+        top:36vh;
+        width:52%;
+        height:50%;
+        left:30vw;
+        background:none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:1rem;
     }
     .card-img-top-proyecto-finalizado{
         width:100%;
@@ -1962,7 +1975,14 @@ nav{
         font-size:0.5rem; 
     }
     .card-2-proyectos-finalizados:hover{
-        display: none;
+        position:absolute;
+        background:none;
+        opacity:0.8;
+        top:90vh;
+        width:100%;
+        height:119%;
+        left:0vw;
+        font-size:1rem;
     }
     .card-2-img-top-proyecto-finalizado{
         width:100%;
@@ -2043,7 +2063,7 @@ nav{
         position: absolute;
         top:0vh;
         right:1vw;
-        font-size:0.8rem;
+        font-size:0.6rem;
     }
     .icono-email-proyectos-realizados{
         display:none;
@@ -2343,9 +2363,9 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:0vh;
-        right:5vw;
-        font-size:0.7rem;
+        top:2vh;
+        right:1vw;
+        font-size:0.5rem;
     }
     .icono-email-index{
         display:none;
@@ -2580,14 +2600,25 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:0vh;
+        top:2vh;
         right:1vw;
-        font-size:0.7rem;
+        font-size:0.5rem;
     }
     .icono-email-sobre-mi{
         display:none;
     }
     .card-proyectos-finalizados{
+        position:absolute;
+        opacity:0.8;
+        top:36vh;
+        width:52%;
+        height:50%;
+        left:30vw;
+        background:none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.7rem;
+    }
+    .card-proyectos-finalizados:hover{
         position:absolute;
         opacity:0.8;
         top:36vh;
@@ -2642,18 +2673,34 @@ nav{
         left:-2vw;
         font-size:1rem;
     }
+    .card-2-proyectos-finalizados:hover{
+        position:absolute;
+        background:none;
+        opacity:0.8;
+        top:80vh;
+        width:100%;
+        height:119%;
+        left:-2vw;
+        font-size:1rem;
+    }
     .botton-visita-mi-repo-2{
         position:absolute;
         top:68vh;
         right:1vw;
         font-size:0.7rem;
     }
+    /*.botton-visita-mi-repo-2:hover{
+        display: none;
+    }*/
     .botton-visita-mi-pagina-2{
         position:absolute;
         top:75vh;
-        right:1vw;
+        right:0vw;
         font-size:0.7rem;
     }
+    /*.botton-visita-mi-pagina-2:hover{
+        display: none;
+    }*/
     .card-2-img-top-proyecto-finalizado{
         width:100%;
     }
@@ -2723,9 +2770,9 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:0vh;
+        top:2vh;
         right:1vw;
-        font-size:0.7rem;
+        font-size:0.5rem;
     }
     .icono-email-proyectos-realizados{
         display:none;

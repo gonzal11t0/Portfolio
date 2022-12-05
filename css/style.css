@@ -300,7 +300,7 @@ nav{
     flex-shrink:3;
     position: absolute;
     top:1vh;
-    left:55vw;
+    left:50vw;
 }
 .email-index{
     flex-basis:50px;
@@ -671,6 +671,6 @@ nav{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
-    top:0vh;
-    right:0.5vw;
+    top:5vh;
+    right:25vw;
 }

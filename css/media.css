@@ -1206,9 +1206,8 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:5vh;
-        right:0.5vw;
-        font-size:0.7rem;
+        top:0vh;
+        left:0vw;
     }
     .card-proyectos-finalizados{
         position:absolute;
@@ -1882,8 +1881,8 @@ nav{
         flex-shrink:3;
         position: absolute;
         top:0vh;
-        left:0vw;
-        font-size:1rem;
+        right:1vw;
+        font-size:0.7rem;
     }
     .icono-email-sobre-mi{
         display:none;

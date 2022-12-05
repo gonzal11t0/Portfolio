@@ -1849,7 +1849,7 @@ nav{
         flex-shrink:3;
         position: absolute;
         top:0vh;
-        left:1vw;
+        left:0vw;
         font-size:1rem;
     }
     .icono-instagram-sobre-mi{
@@ -1881,7 +1881,7 @@ nav{
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        top:0vh;
+        top:0.4vh;
         right:1vw;
         font-size:0.7rem;
     }

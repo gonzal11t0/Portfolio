@@ -1,3 +1,6 @@
+window.addEventListener("load",function(){
+    //console.log("pagina funcionando");
+    //alert("Pagina web no RESPONSIVE. para pagina mas actualizada visita mi GitHub.  ATTE: Gonzalo Lazarte ");
 particlesJS(
     {
         "particles": {
@@ -125,4 +128,4 @@ document.getElementById("botton-conoceme-mas").addEventListener("click",e=>{
 document.getElementById("icono-instagram-index").addEventListener("click",e=>{
     window.location.href="https://www.instagram.com/accounts/login/"
 });
-
+});

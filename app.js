@@ -117,15 +117,4 @@ window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     header.classList.toggle("abajo",window.scrollY>0);
 })
-function googleTranslateElementInit() { 
-    new google.translate.TranslateElement(
-        {pageLanguage: 'es'}, 
-        'google_translate_element'
-    )}; 
-document.getElementById("botton-conoceme-mas").addEventListener("click",e=>{
-    window.location.href="sobre-mi.html"
-});
-document.getElementById("icono-instagram-index").addEventListener("click",e=>{
-    window.location.href="https://www.instagram.com/accounts/login/"
-});
 });

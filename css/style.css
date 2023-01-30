@@ -1,4 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@font-face {
+    font-family:"finger";
+    src: url(./fonts/finger.ttf);
+}
+@font-face {
+    font-family:"titilium";
+    src: url(./fonts/titilium.ttf);
+}
+@font-face {
+    font-family:"yanone";
+    src: url(./fonts/yanone.ttf);
+}
+@font-face {
+    font-family:"Alfa";
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+@font-face {
+    font-family:"SourceSansPro";
+    src: url(./fonts/SourceSansPro-Black.ttf);
+}
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+/* -----------   global------------------*/
 * { 
     margin: 0; 
     padding: 0; 
@@ -8,65 +30,13 @@ body {
     background-image: url(https://midu.dev/images/wallpapers/una-taza-de-javascript.png);
     color: #fff;
     font-size:1.3rem;
-    font-family:'Courier New', Courier, monospace;
-}
-nav{
-    max-width:900px;
-    margin:auto;
-    background-color:transparent;
-    font-size:1.2rem;
-    margin-top:0px;
-}
-.menu-horizontal{
-    list-style:none;
-    display:flex;
-    justify-content:space-around;
-    text-decoration:underline;  
-}
-.menu-horizontal > li > a{
-    display:block;
-    padding:5px 2px;
-    color:white;
-    text-decoration:none;
-}
-.menu-horizontal > li:hover{
-    background-color:#17a2b8;
-    text-decoration:wavy;
-    transition:2s;
-}
-.menu-vertical{
-    position:absolute;
-    display:none;
-    list-style:none;
-    width:200px;
-    background-color: #2B0000;
-    opacity:0.7;
-}
-.menu-horizontal li:hover .menu-vertical{
-    display:block;  
-}
-.menu-vertical li:hover{
-    background-color:#01270a;
-    transition:10s;
-    transform: translateX(6px);
-}
-.menu-horizontal li a{
-    display:block;
-    color:white;
-    padding:10px 10px 5px 2px;
-    text-decoration:none;
+    font-family:"yanone";
 }
 #particles-js {
 	height:100vh; 
 	width:100%;
     position:fixed;
     z-index:-1;
-}
-.en{
-    color:#333;
-}
-.es{
-    color:#00a1ff;
 }
 .check{
     position:relative;
@@ -188,319 +158,139 @@ nav{
         opacity: 0; 
     }
 }
-.container{
-    display:flex;
-    flex-direction:row;
-}
-.card{
-    position:absolute;
-    background-color: #001706;
-    opacity:0.9;
-    top:30vh;
-    width:30%;
-    left:40vw;
-    height:auto;
-    font-family:'Courier New', Courier, monospace;
-    font-size:1.5rem;
-    flex-basis:50px;
-    flex-shrink:3;
-    text-align: center;
-}
 
-.card-img-top{
-    width:30%;
-    height:auto;
-    display: block;
-    margin: auto;
-    border-radius:5px;
-    min-width:30%;
-    max-width:80%;
-    opacity: 1;
+/*----------------index---------------------*/
+.container{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 .botton-conoceme-mas{
     position:absolute;
-    top:92vh;
-    right:40vw;
-}
-.card-2{
-    position:absolute;
-    background-color: #001706;
-    opacity:0.8;
-    top:110vh;
-    width:30%;
-    height:auto;
-    left:40vw;
-    font-family:'Courier New', Courier, monospace;
+    top:164vh;
+    right:42vw;
+    font-family:"SourceSansPro";
     font-size:1.5rem;
-    flex-basis:50px;
-    flex-shrink:3;
-    text-align: center;
+    
 }
-
-.card-3{
-    position:absolute;
-    background-color: #001706;
-    opacity: 0.8;
-    top:150vh;
-    width:30%;
-    height:auto;
-    left:40vw;
-    font-family:'Courier New', Courier, monospace;
-    font-size:1.5rem;
-    flex-basis:50px;
-    flex-shrink:3;
-}
-
 .redes-sociales{
     display:flex;
     flex-direction:row;
     position: absolute;
-    font-family:Courier, monospace;
-    top:210vh;
+    font-family:"finger";
+    top:150vh;
+    margin-top:180px;
     width:100%;
+    background-color: rgba(38,39,39,0.9);
     height:8%;
 }
-.Instagram-index{
-    flex-basis:50px;
-    flex-shrink:3;
-    position: absolute;
-    top:1vh;
-    left:2vw;
-    color: #3dff3e;
+.redes-sociales:hover{
+    background: rgba(38,39,39,0.9);
+    background: -webkit-linear-gradient(to top, #1e292e, #16222A);  
+    background: linear-gradient(to top, #141516, #1c2d38);
+    transition: 1.5s;
+}
+#links-footer{
+    text-decoration: none;
+    color: rgb(211, 211, 127);
 }
 .Git-Hub-index{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
     top:1vh;
-    left:30vw;
-}
-.whatsapp-index{
-    flex-basis:50px;
-    flex-shrink:3;
-    position: absolute;
-    top:1vh;
-    left:50vw;
+    left:1vw;
 }
 .email-index{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
     top:1vh;
-    right:0.5vw;
+    right:5vw;
     font-size:1rem;
 }
+.index{
+    position:absolute;
+    display:block;
+    right:2vw;
+    padding:5px 10px;
+    border-radius:50px;
+    background-color: #050505;
+    width: auto;
+    cursor: pointer;
+    text-overflow:ellipsis;
+    box-shadow: 0 10px 16px 0 rgba(231, 214, 214, 0.2);
+    top:160vh;
+}
+.index:hover{
+    background-color: #242728;
+}
+.subir{
+    color:white;
+    text-decoration:none;
+    font-family:"SourceSansPro";
+}
+/*/*----------------sobre mi---------------------*/
 .conocemes{
     display:flex;
     flex-direction:row;
-}
-.conoceme{
-    position: absolute;
-    width:40%;
-    height:auto;
-    top:30vh;
-    left:40vw;
-    text-align: center;
-    background-color: #001706 !important;
-    opacity: 0.9;
-}
-.titulo-conoceme{
-    flex-basis:10px;
-    flex-shrink:1;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:1.5rem;
-    text-align: center;
-    text-decoration:underline 4px red;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left:6vw;
-    background-color: #001706 !important;
-    opacity: 0.9;
-}
-.titulo-conoceme::first-letter{
-    color: rgb(91, 117, 38);
-    font-size: 3rem;
-}
-.titulo-conoceme:hover{
-    font-size:3rem;
-    text-decoration:underline 6px rgb(48, 1, 1);
-}
-.parrafo-conoceme{
-    flex-basis:700px;
-    flex-shrink:3;
-    font-family:'Courier New', Courier, monospace;
-    font-size:1.4rem;
-    position: absolute;
-    top:7vh;
-    background-color: #001706 !important;
-    opacity: 0.9;
-}
-.parrafo-conoceme::first-letter{
-    color: rgb(91, 117, 38);
-    font-size:3rem;
-}
-.parrafo-conoceme:hover{
-    font-size:1.6rem;
-}
-.conoceme-2{
-    position: absolute;
-    width:40%;
-    height:auto;
-    top:100vh;
-    left:40vw;
-    background-color: #001706 !important;
-    opacity: 0.9;
-    text-align: center;
-}
-.titulo-objetivo{
-    flex-basis:50px;
-    flex-shrink:3;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:1.5rem;
-    text-align: center;
-    text-decoration:underline 4px red;
-}
-.titulo-objetivo::first-letter{
-    color: rgb(91, 117, 38);
-    font-size:3rem;
-}
-.titulo-objetivo:hover{
-    font-size:3rem;
-    text-decoration:underline 6px rgb(48, 1, 1);
-}
-.parrafo-objetivo{
-    flex-basis:50px;
-    flex-shrink:3;
-    font-family:'Courier New', Courier, monospace;
-    font-size:1.4rem;
-}
-.parrafo-objetivo::first-letter{
-    color: rgb(91, 117, 38);
-    font-size:3rem;
-}
-.parrafo-objetivo:hover{
-    font-size:1.6rem;
-}
-.conoceme-3{
-    position: absolute;
-    width:40%;
-    height:auto;
-    top:170vh;
-    left:40vw;
-    background-color: #001706 !important;
-    opacity: 0.9;
-}
-.titulo-por-que-soy-desarrollador-web-fronted{
-    flex-basis:50px;
-    flex-shrink:3;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:1.5rem;
-    text-align: center;
-    text-decoration:underline 4px red;
-}
-.titulo-por-que-soy-desarrollador-web-fronted::first-letter{
-    color: rgb(91, 117, 38);
-    font-size:3rem;
-}
-.titulo-por-que-soy-desarrollador-web-fronted:hover{
-    font-size:2.5rem;
-    text-decoration:underline 6px rgb(48, 1, 1);
-}
-.parrafo-por-que-soy-desarrollador-web-fronted{
-    flex-basis:50px;
-    flex-shrink:3;
-    font-family:'Courier New', Courier, monospace;
-    font-size:1.4rem;
-}
-.parrafo-por-que-soy-desarrollador-web-fronted::first-letter{
-    color: rgb(91, 117, 38);
-    font-size:3rem;
-}
-.conoceme-4{
-    position: absolute;
-    width:40%;
-    height:auto;
-    top:230vh;
-    left:40vw;
-    opacity:0.9;
-    background-color: #001706 !important;
-    opacity: 0.9;
-}
-.titulo-que-conocimientos-tengo{
-    flex-basis:50px;
-    flex-shrink:3;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:1.5rem;
-    text-align: center;
-    text-decoration:underline 4px red;
-}
-.titulo-que-conocimientos-tengo:first-letter{
-    color: rgb(91, 117, 38);
-    font-size:3rem;
-}
-.titulo-que-conocimientos-tengo:hover{
-    font-size:1.8rem;
-    text-decoration:underline 6px rgb(48, 1, 1);
-}
-.parrafo-que-conocimientos-tengo{
-    flex-basis:50px;
-    flex-shrink:1;
-    font-family:'Courier New', Courier, monospace;
-    font-size:1.4rem;
-}
-.parrafo-que-conocimientos-tengo:first-letter{
-    color: rgb(91, 117, 38);
-    font-size:3rem;
 }
 .redes-sociales-sobre-mi{
     display:flex;
     flex-direction:row;
     position: absolute;
-    top:320vh;
+    font-family:"finger";
+    top:230vh;
     width:100%;
-    height:8%;
     background-color: #262727;
-    opacity:0.9;
+    height:8%;
+
 }
-.Instagram-sobre-mi{
-    flex-basis:50px;
-    flex-shrink:3;
-    position: absolute;
-    top:0vh;
-    left:10vw;
+.redes-sociales-sobre-mi:hover{
+    background: rgba(38,39,39,0.9);
+    background: -webkit-linear-gradient(to top, #1e292e, #16222A);  
+    background: linear-gradient(to top, #141516, #1c2d38); 
+    transition: 1.5s;
 }
 .Git-Hub-sobre-mi{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
     top:0vh;
-    left:47vw;
-}
-.whatsapp-sobre-mi{
-    flex-basis:50px;
-    flex-shrink:3;
-    position: absolute;
-    top:0vh;
-    right:8vw;
+    left:10vw;
 }
 .email-sobre-mi{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
-    top:5vh;
-    right:35vw;
+    top:0vh;
+    right:10vw;
 }
+.index-sobre-mi{
+    position:absolute;
+    display:block;
+    right:2vw;
+    padding:5px 10px;
+    border-radius:50px;
+    background-color: #050505;
+    width: auto;
+    cursor: pointer;
+    text-overflow:ellipsis;
+    box-shadow: 0 10px 16px 0 rgba(231, 214, 214, 0.2);
+    top:195vh;
+}
+.index-sobre-mi:hover{
+    background-color: #242728;
+}
+/*----------------proyectos finalizados---------------------*/
 .card-proyectos-finalizados{
     position:fixed;
-    background-color: #001706;
-    opacity:0.8;
+    background-color: #3bb1b1;
+    opacity:0.7;
     top:30vh;
     width:30vw;
     height:auto;
     left:5vw;
-    font-family:'Courier New', Courier, monospace;
-    font-size:1rem;
 }
 .card-img-top-proyecto-finalizado{
     width:90%;
@@ -510,22 +300,29 @@ nav{
     border-radius:5px;
 }
 .card-title-title-proyecto-finalizados{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:1.5rem;
+    font-size:2rem;
+    font-family:'titilium';
     text-align: center;
     text-decoration:underline 2px red;
 }
 .card-title-title-proyecto-finalizados:first-letter{
-    color: rgb(91, 117, 38);
     font-size: 3rem;
 }
 .card-texto-proyecto-finalizados{
-    font-family:'monospace';
-    font-size:1.2rem;
+    font-family:'SourceSansPro';
+    font-size:1.6rem;
 }
 .card-texto-proyecto-finalizados::first-letter{
-    color: rgb(91, 117, 38);
     font-size:3rem;
+}
+.btn-primary {
+    font-family:"SourceSansPro";
+    background-color:rgb(16, 15, 15);
+    text-decoration: none;
+    border-style:none;
+}
+.btn-primary:hover {
+    --bs-btn-hover-bg: rgb(40,140,160,0.8);
 }
 .card-btn-btn-primary-proyecto-finalizado{
     position: absolute;
@@ -534,7 +331,7 @@ nav{
 }
 .card-2-proyectos-finalizados{
     position:fixed;
-    background-color: #001706;
+    background-color: #3bb1b1;
     opacity:1;
     top:30vh;
     width:30vw;
@@ -551,24 +348,22 @@ nav{
     border-radius:5px;
 }
 .card-2-title-proyecto-finalizados{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:1.5rem;
+    font-size:2rem;
+    font-family:'titilium';
     text-align: center;
     text-decoration:underline 2px red;
 }
 .card-2-title-proyecto-finalizados::first-letter{
-    color: rgb(91, 117, 38);
     font-size: 3rem;
 }
 .card-2-texto-proyecto-finalizados{
-    font-family:'monospace';
-    font-size:1.2rem;
+    font-family:'SourceSansPro';
+    font-size:1.6rem;
 }
 .card-2-texto-proyecto-finalizados:first-letter{
-    color: rgb(91, 117, 38);
     font-size:3rem;
 }
-.redes-sociales-proyectos-realizados {
+.redes-sociales-proyectos-realizados{
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -577,32 +372,42 @@ nav{
     height: 10%;
     background-color: #262727;
     opacity: 0.9;
+    font-family:"finger";
 }
-.Instagram-proyectos-realizados{
-    flex-basis:50px;
-    flex-shrink:3;
-    position: absolute;
-    top:0vh;
-    left:10vw;
+.redes-sociales-proyectos-realizados:hover{
+    background: rgba(38,39,39,0.9);
+    background: -webkit-linear-gradient(to top, #1e292e, #16222A); 
+    background: linear-gradient(to top, #141516, #1c2d38); 
+    transition: 1.5s;
 }
 .Git-Hub-proyectos-realizados{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
     top:0vh;
-    left:47vw;
+    left:10vw;
 }
-.whatsapp-proyectos-realizados{
-    flex-basis:50px;
-    flex-shrink:3;
-    position: absolute;
-    top:0vh;
-    right:8vw;
-}
+
 .email-proyectos-realizados{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
-    top:5vh;
-    right:35vw;
+    top:0vh;
+    right:10vw;
+}
+.index-proyectos-realizados{
+    position:absolute;
+    display:block;
+    right:2vw;
+    padding:5px 10px;
+    border-radius:50px;
+    background-color: #050505;
+    width: auto;
+    cursor: pointer;
+    text-overflow:ellipsis;
+    box-shadow: 0 10px 16px 0 rgba(231, 214, 214, 0.2);
+    top:115vh;
+}
+.index-proyectos-realizados:hover{
+    background-color: #242728;
 }

@@ -144,14 +144,20 @@
     left:40vw;
     font-size:0.8rem;
 }
+.icono-Git-Hub-index{
+    display: none;
+}
 .email-index{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
     top:9vh;
     width:100%;
-    left:0vw;
+    left:20vw;
     font-size:0.7rem;
+}
+.icono-email-index{
+    display: none;
 }
 .index{
     top:174vh;

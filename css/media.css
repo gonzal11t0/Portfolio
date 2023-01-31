@@ -152,8 +152,7 @@
     flex-shrink:3;
     position: absolute;
     top:9vh;
-    width:100%;
-    left:0vw;
+    left:20vw;
     font-size:0.7rem;
 }
 .icono-email-index{

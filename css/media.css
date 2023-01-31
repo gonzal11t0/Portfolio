@@ -206,7 +206,7 @@
         top:20vh;
         width:60%;
         height:170px;   
-        padding-left:35px; 
+        padding-left:55px; 
     }
     #card div h1 {
         font-size:1rem;
@@ -241,7 +241,7 @@
         font-size:0.6rem;
     }
     .icono-email-index{
-       display:none;
+        display:none;
     }
     .index{
         top:210vh;

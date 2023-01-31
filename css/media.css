@@ -273,29 +273,29 @@
     }
 @media (max-height:726px){
     .index{
-        top:170vh;
+        top:161vh;
         font-size:1rem;
         margin-top:250px;
     }
     .botton-conoceme-mas{
-        margin-top:250px;
+        margin-top:210px;
     }  
 }
 
-@media (max-height:663px){
+@media (max-height:660px){
 .botton-conoceme-mas{
     position:absolute;
-    top:164vh;
+    top:160vh;
     right:42vw;
     font-family:"SourceSansPro";
     font-size:1rem;
     margin-top:500px;
 } 
 .index{
-    margin-top:510px;
+    margin-top:400px;
 } 
 .redes-sociales{
-    margin-top:380px;
+    margin-top:600px;
 }
 }
 

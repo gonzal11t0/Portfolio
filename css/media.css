@@ -149,8 +149,8 @@
     flex-shrink:3;
     position: absolute;
     top:9vh;
-    left:0vw;
     width:100%;
+    left:0vw;
     font-size:0.7rem;
 }
 .index{

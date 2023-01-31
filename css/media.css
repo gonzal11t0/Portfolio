@@ -172,7 +172,7 @@
         grid-template-columns: auto auto  ;
     }
     .nav a {
-        font-size:5rem;
+        font-size:1.1rem;
     }
     .nav li{
         padding:0.2em 0.2em;
@@ -241,15 +241,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /* altura */
 @media (max-height:800px){
     .botton-conoceme-mas{
@@ -307,6 +298,8 @@
     margin-top:380px;
 }
 }
+
+
 @media (max-height:540px){
     .botton-conoceme-mas{
         margin-top:380px;

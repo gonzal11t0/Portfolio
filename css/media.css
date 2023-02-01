@@ -79,6 +79,7 @@
     }
 }
 @media(max-width:499px){
+
 /*----------index---------------*/
 .container{
     display:grid;
@@ -172,7 +173,7 @@
         display:grid;
         grid-template-columns: auto ;
         grid-template-rows: auto  ;
-        }
+    }
     .nav{
         display: grid;
         grid-template-columns: auto auto  ;
@@ -236,6 +237,7 @@
         top:2vh;
         left:40vw;
         font-size:0.6rem;
+        text-decoration: 3px  underline;
     }
     .icono-Git-Hub-index{
         display:none;
@@ -247,6 +249,7 @@
         top:9vh;
         left:15vw;
         font-size:0.6rem;
+        text-decoration: 3px  underline;
     }
     .icono-email-index{
         display:none;
@@ -256,7 +259,102 @@
         font-size:0.8rem;
         right:36vw;
     }
+
+/* ---------------- sobre mi -----------*/
+    .container{
+            display:grid;
+            grid-template-columns: auto ;
+            grid-template-rows: auto  ;
+        }
+    #card-2 {
+            position: relative;
+            text-align: center;
+            top:1vh;
+            width:55%;
+            height:365px;   
+            margin:20px; 
+            left:20vw;
+            padding-right:10px;
+            margin-top:210px;
+        }
+    #card-2 div h1{
+            font-size:1.1rem;
+        }
+    .boton_ver_mas{
+            position:relative;
+            top:10vh;
+            width:35%;
+            left:38vw;
+        }
+    .boton_ver_mas-3{
+            position: absolute;
+            top:170vh;
+            width:35%;
+            left:38vw;
+        }
+    .boton_ver_mas-4{
+            position: absolute;
+            top:235vh;
+            width:35%;
+            left:38vw;
+        }
+    .redes-sociales-sobre-mi{
+            top:340vh;
+            height:10%;
+        }
+    .Git-Hub-sobre-mi{
+            flex-basis:50px;
+            flex-shrink:3;
+            position: absolute;
+            top:2vh;
+            left:40vw;
+            font-size:0.7rem;
+            text-decoration: 3px  underline;
+        }
+    .icono-Git-Hub-sobre-mi{
+            display:none;
+        }
+    .email-sobre-mi{
+            flex-basis:50px;
+            flex-shrink:3;
+            position: absolute;
+            top:6vh;
+            left:10vw;
+            width:90%;
+            font-size:0.6rem;
+            text-decoration: 3px  underline;
+        }
+    .icono-email-sobre-mi{
+            display:none;
+        }
+    .index-sobre-mi{
+            top:320vh;
+            font-size:1rem;
+            left:38vw;
+            width:35%;
+        }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -277,7 +375,7 @@
         margin-top:90px;
     }
 }
-@media (max-height:775px){
+@media (max-height:787px){
     .botton-conoceme-mas{
         position:absolute;
         top:164vh;
@@ -289,7 +387,15 @@
     .redes-sociales{
         margin-top:300px;
     }
+    .index-sobre-mi{
+        margin-top:250px;
     }
+    .redes-sociales-sobre-mi{
+        margin-top:250px;
+    }
+}
+@media(max-width:730px){
+}
 @media (max-height:726px){
     .index{
         top:184vh;
@@ -298,9 +404,22 @@
     .botton-conoceme-mas{
         margin-top:205px;
         margin-bottom:20px;
-    }  
+    } 
+    .index-sobre-mi{
+        margin-top:250px;
+    }
+    .redes-sociales-sobre-mi{
+        margin-top:250px;
+    } 
 }
-
+@media (max-height:690px){
+    .index-sobre-mi{
+        margin-top:490px;
+    }
+    .redes-sociales-sobre-mi{
+        margin-top:490px;
+    } 
+}
 @media (max-height:660px){
 .botton-conoceme-mas{
     position:absolute;
@@ -317,7 +436,14 @@
     margin-top:600px;
 }
 }
-
+@media (max-height:599px){
+    .index-sobre-mi{
+        margin-top:635px;
+    }
+    .redes-sociales-sobre-mi{
+        margin-top:635px;
+    } 
+}
 
 @media (max-height:540px){
     .botton-conoceme-mas{
@@ -329,5 +455,11 @@
     .index{
         margin-top:300px;
     }
+    .index-sobre-mi{
+        margin-top:750px;
+    }
+    .redes-sociales-sobre-mi{
+        margin-top:750px;
+    } 
 }
 

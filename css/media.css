@@ -246,7 +246,7 @@
         flex-basis:50px;
         flex-shrink:3;
         position: absolute;
-        left:10vw;
+        left:15vw;
         width:90%;
         font-size:0.6rem;
         text-decoration: 3px  underline;
@@ -261,11 +261,18 @@
     }
 
 /* ---------------- sobre mi -----------*/
+    .nav{
+        display: grid;
+        grid-template-columns: auto auto  ;
+    }
+    .nav li{
+        padding:0.1em 0.2em;
+    }
     .container{
             display:grid;
             grid-template-columns: auto ;
             grid-template-rows: auto  ;
-        }
+    }
     #card-2 {
             position: relative;
             text-align: center;
@@ -276,32 +283,32 @@
             left:20vw;
             padding-right:10px;
             margin-top:250px;
-        }
+    }
     #card-2 div h1{
             font-size:1.1rem;
-        }
+    }
     .boton_ver_mas{
             position:relative;
             top:10vh;
             width:35%;
             left:38vw;
-        }
+    }
     .boton_ver_mas-3{
             position: absolute;
             top:170vh;
             width:35%;
             left:38vw;
-        }
+    }
     .boton_ver_mas-4{
             position: absolute;
             top:250vh;
             width:35%;
             left:38vw;
-        }
+    }
     .redes-sociales-sobre-mi{
             top:340vh;
             height:10%;
-        }
+    }
     .Git-Hub-sobre-mi{
             flex-basis:50px;
             flex-shrink:3;
@@ -310,10 +317,10 @@
             left:40vw;
             font-size:0.7rem;
             text-decoration: 3px  underline;
-        }
+    }
     .icono-Git-Hub-sobre-mi{
             display:none;
-        }
+    }
     .email-sobre-mi{
             flex-basis:50px;
             flex-shrink:3;
@@ -323,16 +330,16 @@
             width:90%;
             font-size:0.6rem;
             text-decoration: 3px  underline;
-        }
+    }
     .icono-email-sobre-mi{
             display:none;
-        }
+    }
     .index-sobre-mi{
             top:320vh;
             font-size:1rem;
             left:38vw;
             width:35%;
-        }
+    }
 }
 
 
@@ -402,7 +409,6 @@
         margin-top:150px;
     }
 }
-
 @media (max-height:726px){
     .index{
         top:184vh;

@@ -211,6 +211,14 @@
     #card div h1 {
         font-size:1rem;
     }
+    #card .front {
+        background: rgba(40,140,160,0.3);
+        transform: perspective(500px) rotateY(0deg);
+    }
+    #card .back {
+        background: rgba(40,140,160,1);
+        transform: perspective(500px) rotateY(180deg);
+    }
     .botton-conoceme-mas{
         top:200vh;
         left:27vw;

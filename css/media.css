@@ -151,7 +151,7 @@
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
-    top:9vh;
+    top:8vh;
     left:20vw;
     font-size:0.7rem;
 }
@@ -161,7 +161,7 @@
 .index{
     top:174vh;
     font-size:0.8rem;
-    margin-top:30px;
+    margin-bottom:2px;
 }
 
 }
@@ -292,12 +292,12 @@
     }
 @media (max-height:726px){
     .index{
-        top:161vh;
+        top:184vh;
         font-size:1rem;
-        margin-top:250px;
     }
     .botton-conoceme-mas{
-        margin-top:210px;
+        margin-top:205px;
+        margin-bottom:20px;
     }  
 }
 
@@ -327,7 +327,7 @@
         margin-top:500px;
     }
     .index{
-        margin-top:400px;
+        margin-top:300px;
     }
 }
 

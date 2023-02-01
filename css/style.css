@@ -171,7 +171,10 @@ body {
     right:42vw;
     font-family:"SourceSansPro";
     font-size:1.5rem;
-    
+    cursor: pointer;
+    text-overflow:ellipsis;
+    box-shadow: 0 10px 16px 0 rgba(231, 214, 214, 0.2);
+    border-radius:50px;
 }
 .redes-sociales{
     display:flex;

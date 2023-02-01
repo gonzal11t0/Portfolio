@@ -158,7 +158,6 @@
     padding-top:20px;
 }
 .boton_ver_mas{
-    -ms-flex-direction:row;
     position:fixed;
     display:block;
     top:70vh;
@@ -172,7 +171,7 @@
     box-shadow: 0 10px 16px 0 rgba(9, 158, 166, 0.2);
 }
 .boton_ver_mas-2{
-    position:absolute;
+    position:fixed;
     display:block;
     top:112vh;
     right:45vw;

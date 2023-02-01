@@ -761,7 +761,7 @@
         position:absolute;
         background-color:none;
         opacity:0.9;
-        top:35vh;
+        top:45vh;
         width:60%;
         height:auto;
         left:25vw;
@@ -798,12 +798,11 @@
     .card-btn-btn-primary-proyecto-finalizado{
         display: none;
     }
-
     .card-2-proyectos-finalizados{
         position:absolute;
         background-color:none;
         opacity:0.9;
-        top:63vh;
+        top:73vh;
         width:100%;
         height:auto;
         left:0vw;
@@ -831,7 +830,7 @@
         display: flex;
         flex-direction: row;
         position: absolute;
-        top:180vh;
+        top:190vh;
         width:100%;
         height:15%;
         background-color: #262727;
@@ -870,7 +869,7 @@
     .index-proyectos-realizados{
         position:absolute;
         display:block;
-        top:165vh;
+        top:175vh;
         left:38vw;
         font-size:1rem;
         padding:5px 10px;

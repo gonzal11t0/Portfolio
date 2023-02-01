@@ -38,7 +38,7 @@
         color: #16bbc3;
     }
     .nav a {
-        padding: .30em .20em;
+        padding: .5em .30em;
         margin-left:-20px;
         top:-1vh;
         font-size:1.4rem;
@@ -48,12 +48,12 @@
         top:25vh;
         width:69%;
         height:225px;   
-        padding-left:70px; 
+        left:11px; 
         margin-bottom:100px;
     }
     .botton-conoceme-mas{
-        top:150vh;
-        right:37vw;
+        top:160vh;
+        right:45vw;
         font-size:1.2rem;
     }   
     .redes-sociales{
@@ -77,6 +77,216 @@
         right:5vw;
         font-size:0.7rem;
     }
+    /* ---------------- sobre mi -----------*/
+.nav{
+    display: grid;
+    grid-template-columns: auto auto  ;
+}
+.nav li{
+    padding:0.5em 0.2em;
+}
+.container{
+        display:grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto   ;
+}
+#card-2 {
+        position: relative;
+        text-align: center;
+        top:1vh;
+        width:40%;
+        height:365px;   
+        margin:20px; 
+        left:30vw;
+        padding-right:10px;
+        margin-top:250px;
+}
+#card-2 div h1{
+        font-size:1.1rem;
+}
+#card-2 .front{
+    background: rgba(40,140,160,0.4);
+}
+#card-2 .back{
+    background: rgba(40,140,160,1);
+}
+.boton_ver_mas{
+        position:relative;
+        top:10vh;
+        width:25%;
+        left:42vw;
+}
+.boton_ver_mas-3{
+        position: absolute;
+        top:170vh;
+        width:25%;
+        left:42vw;
+}
+.boton_ver_mas-4{
+        position: absolute;
+        top:250vh;
+        width:25%;
+        left:42vw;
+}
+.redes-sociales-sobre-mi{
+        top:340vh;
+        height:10%;
+}
+.Git-Hub-sobre-mi{
+        flex-basis:50px;
+        flex-shrink:3;
+        position: absolute;
+        top:2vh;
+        left:40vw;
+        font-size:0.7rem;
+        text-decoration: 3px  underline;
+}
+.icono-Git-Hub-sobre-mi{
+        display:none;
+}
+.email-sobre-mi{
+        flex-basis:50px;
+        flex-shrink:3;
+        position: absolute;
+        top:6vh;
+        width:90%;
+        font-size:0.6rem;
+        text-decoration: 3px  underline;
+        text-align: center;
+}
+.icono-email-sobre-mi{
+        display:none;
+}
+.index-sobre-mi{
+        top:320vh;
+        font-size:1rem;
+        left:42vw;
+        width:20%;
+}
+/*----------------proyectos finalizados---------------------*/
+
+.card-proyectos-finalizados{
+    position:absolute;
+    background-color:none;
+    opacity:0.9;
+    top:35vh;
+    width:60%;
+    height:auto;
+    left:25vw;
+}
+.card-title-title-proyecto-finalizados{
+    font-size:1.5rem;
+    font-family:'titilium';
+    text-align: center;
+    text-decoration:none;
+}
+.card-title-title-proyecto-finalizados:first-letter{
+    font-size: 3rem;
+}
+.card-texto-proyecto-finalizados{
+    font-family:'SourceSansPro';
+    font-size:1.1rem;
+}
+.card-texto-proyecto-finalizados::first-letter{
+    font-size:3rem;
+}
+.btn-primary {
+    font-family:"SourceSansPro";
+    background-color:rgb(21, 17, 17,0.4);
+    text-decoration: none;
+    border-style:none;
+    font-size:0.9rem;
+}
+.btn-primary:hover {
+    display: none;
+}
+.card-btn-btn-primary-proyecto-finalizado{
+    display: none;
+}
+.card-2-proyectos-finalizados{
+    position:absolute;
+    background-color:none;
+    opacity:0.9;
+    top:63vh;
+    width:100%;
+    height:auto;
+    left:0vw;
+}
+.card-2-title-proyecto-finalizados{
+    font-size:1.5rem;
+    font-family:'titilium';
+    text-align: center;
+    text-decoration:none;
+}
+.card-2-title-proyecto-finalizados::first-letter{
+    font-size: 3rem;
+}
+.card-2-texto-proyecto-finalizados{
+    font-family:'SourceSansPro';
+    font-size:1.1rem;
+}
+.card-2-texto-proyecto-finalizados:first-letter{
+    font-size:3rem;
+}
+.redes-sociales-proyectos-realizados{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:180vh;
+    width:100%;
+    height:15%;
+    background-color: #262727;
+    opacity: 0.9;
+    font-family:"finger";
+}
+.redes-sociales-proyectos-realizados:hover{
+    background: rgba(38,39,39,0.9);
+    background: -webkit-linear-gradient(to top, #1e292e, #16222A); 
+    background: linear-gradient(to top, #141516, #1c2d38); 
+    transition: 1.5s;
+}
+.Git-Hub-proyectos-realizados{
+    flex-basis:50px;
+    flex-shrink:3;
+    position: absolute;
+    top:3vh;
+    left:43vw;
+    text-align: center;
+    font-size:0.9rem;
+}
+.icono-Git-Hub-proyectos-realizados{
+    display: none;
+}
+.email-proyectos-realizados{
+    flex-basis:50px;
+    flex-shrink:3;
+    position: absolute;
+    top:9vh;
+    text-align: center;
+    width:90%;
+    font-size:0.9rem;
+}
+.icono-email-proyectos-realizados{
+    display: none;
+}
+.index-proyectos-realizados{
+    position:absolute;
+    display:block;
+    top:165vh;
+    left:45vw;
+    font-size:1rem;
+    padding:5px 10px;
+    border-radius:10px;
+    background-color: #050505;
+    width:20%;
+    cursor: pointer;
+    text-overflow:ellipsis;
+    box-shadow: 0 10px 16px 0 rgba(231, 214, 214, 0.2);
+
+}
+.index-proyectos-realizados:hover{
+    background-color: #242728;
+}
 }
 @media(max-width:499px){
 
@@ -88,13 +298,13 @@
     }
 .nav{
     display: grid;
-    grid-template-columns: auto auto  ;
+    grid-template-columns: auto auto auto auto  ;
 }
 .nav a {
     font-size:1.3rem;
 }
 .nav li{
-    padding:0.5em 0.4em;
+    padding:0em;
 }
 .nav a::after {
     transition:none;
@@ -126,13 +336,13 @@
     font-size:1.2rem;
 }
 .botton-conoceme-mas{
-    top:170vh;
+    top:240vh;
     left:5vw;
     font-size:1rem;
     width:30%;
 }   
 .redes-sociales{
-    top:160vh;
+    top:230vh;
     height:13%;
     width:100%;
     margin-top:200px;
@@ -160,11 +370,218 @@
     display: none;
 }
 .index{
-    top:174vh;
+    top:240vh;
     font-size:0.8rem;
     margin-bottom:2px;
 }
+/* ---------------- sobre mi -----------*/
+.nav{
+    display: grid;
+    grid-template-columns: auto auto  ;
+}
 
+.container{
+        display:grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto  ;
+}
+#card-2 {
+        position: relative;
+        text-align: center;
+        top:1vh;
+        width:55%;
+        height:365px;   
+        margin:20px; 
+        left:20vw;
+        padding-right:10px;
+        margin-top:250px;
+}
+#card-2 div h1{
+        font-size:1.1rem;
+}
+.boton_ver_mas{
+        position:relative;
+        top:10vh;
+        width:35%;
+        left:38vw;
+}
+.boton_ver_mas-3{
+        position: absolute;
+        top:170vh;
+        width:35%;
+        left:38vw;
+}
+.boton_ver_mas-4{
+        position: absolute;
+        top:250vh;
+        width:35%;
+        left:38vw;
+}
+.redes-sociales-sobre-mi{
+        top:340vh;
+        height:10%;
+}
+.Git-Hub-sobre-mi{
+        flex-basis:50px;
+        flex-shrink:3;
+        position: absolute;
+        top:2vh;
+        left:40vw;
+        font-size:0.7rem;
+        text-decoration: 3px  underline;
+}
+.icono-Git-Hub-sobre-mi{
+        display:none;
+}
+.email-sobre-mi{
+        flex-basis:50px;
+        flex-shrink:3;
+        position: absolute;
+        top:6vh;
+        width:90%;
+        font-size:0.6rem;
+        text-decoration: 3px  underline;
+        text-align: center;
+}
+.icono-email-sobre-mi{
+        display:none;
+}
+.index-sobre-mi{
+        top:320vh;
+        font-size:1rem;
+        left:38vw;
+        width:35%;
+}
+/*----------------proyectos finalizados---------------------*/
+
+.card-proyectos-finalizados{
+    position:absolute;
+    background-color:none;
+    opacity:0.9;
+    top:35vh;
+    width:60%;
+    height:auto;
+    left:25vw;
+}
+.card-img-top-proyecto-finalizado{
+    display: none;
+}
+.card-title-title-proyecto-finalizados{
+    font-size:1.3rem;
+    font-family:'titilium';
+    text-align: center;
+    text-decoration:none;
+}
+.card-title-title-proyecto-finalizados:first-letter{
+    font-size: 3rem;
+}
+.card-texto-proyecto-finalizados{
+    font-family:'SourceSansPro';
+    font-size:1.2rem;
+}
+.card-texto-proyecto-finalizados::first-letter{
+    font-size:3rem;
+}
+.btn-primary {
+    font-family:"SourceSansPro";
+    background-color:rgb(21, 17, 17,0.4);
+    text-decoration: none;
+    border-style:none;
+    font-size:0.8rem;
+}
+.btn-primary:hover {
+    display: none;
+}
+.card-btn-btn-primary-proyecto-finalizado{
+    display: none;
+}
+
+.card-2-proyectos-finalizados{
+    position:absolute;
+    background-color:none;
+    opacity:0.9;
+    top:63vh;
+    width:100%;
+    height:auto;
+    left:0vw;
+}
+.card-2-img-top-proyecto-finalizado{
+    display: none;
+}
+.card-2-title-proyecto-finalizados{
+    font-size:1rem;
+    font-family:'titilium';
+    text-align: center;
+    text-decoration:none;
+}
+.card-2-title-proyecto-finalizados::first-letter{
+    font-size: 3rem;
+}
+.card-2-texto-proyecto-finalizados{
+    font-family:'SourceSansPro';
+    font-size:1rem;
+}
+.card-2-texto-proyecto-finalizados:first-letter{
+    font-size:3rem;
+}
+.redes-sociales-proyectos-realizados{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:180vh;
+    width:100%;
+    height:15%;
+    background-color: #262727;
+    opacity: 0.9;
+    font-family:"finger";
+}
+.redes-sociales-proyectos-realizados:hover{
+    background: rgba(38,39,39,0.9);
+    background: -webkit-linear-gradient(to top, #1e292e, #16222A); 
+    background: linear-gradient(to top, #141516, #1c2d38); 
+    transition: 1.5s;
+}
+.Git-Hub-proyectos-realizados{
+    flex-basis:50px;
+    flex-shrink:3;
+    position: absolute;
+    top:3vh;
+    left:43vw;
+    font-size:0.9rem;
+}
+.icono-Git-Hub-proyectos-realizados{
+    display: none;
+}
+.email-proyectos-realizados{
+    flex-basis:50px;
+    flex-shrink:3;
+    position: absolute;
+    top:9vh;
+    left:10vw;
+    width:90%;
+    font-size:0.9rem;
+}
+.icono-email-proyectos-realizados{
+    display: none;
+}
+.index-proyectos-realizados{
+    position:absolute;
+    display:block;
+    top:165vh;
+    left:38vw;
+    font-size:1rem;
+    padding:5px 10px;
+    border-radius:10px;
+    background-color: #050505;
+    width:30%;
+    cursor: pointer;
+    text-overflow:ellipsis;
+    box-shadow: 0 10px 16px 0 rgba(231, 214, 214, 0.2);
+
+}
+.index-proyectos-realizados:hover{
+    background-color: #242728;
+}
 }
 
 @media (min-width:282px)  and (max-width:361px){
@@ -182,7 +599,7 @@
         font-size:1.1rem;
     }
     .nav li{
-        padding:0.2em 0.2em;
+        padding:0.5em 0.6em;
     }
     .nav a::after {
         transition:none;
@@ -265,9 +682,6 @@
         display: grid;
         grid-template-columns: auto auto  ;
     }
-    .nav li{
-        padding:0.1em 0.2em;
-    }
     .container{
             display:grid;
             grid-template-columns: auto ;
@@ -326,7 +740,7 @@
             flex-shrink:3;
             position: absolute;
             top:6vh;
-            left:10vw;
+            left:15vw;
             width:90%;
             font-size:0.6rem;
             text-decoration: 3px  underline;
@@ -340,30 +754,139 @@
             left:38vw;
             width:35%;
     }
+
+/*----------------proyectos finalizados---------------------*/
+
+    .card-proyectos-finalizados{
+        position:absolute;
+        background-color:none;
+        opacity:0.9;
+        top:35vh;
+        width:60%;
+        height:auto;
+        left:25vw;
+    }
+    .card-img-top-proyecto-finalizado{
+        display: none;
+    }
+    .card-title-title-proyecto-finalizados{
+        font-size:1.3rem;
+        font-family:'titilium';
+        text-align: center;
+        text-decoration:none;
+    }
+    .card-title-title-proyecto-finalizados:first-letter{
+        font-size: 3rem;
+    }
+    .card-texto-proyecto-finalizados{
+        font-family:'SourceSansPro';
+        font-size:1.2rem;
+    }
+    .card-texto-proyecto-finalizados::first-letter{
+        font-size:3rem;
+    }
+    .btn-primary {
+        font-family:"SourceSansPro";
+        background-color:rgb(21, 17, 17,0.4);
+        text-decoration: none;
+        border-style:none;
+        font-size:0.8rem;
+    }
+    .btn-primary:hover {
+        display: none;
+    }
+    .card-btn-btn-primary-proyecto-finalizado{
+        display: none;
+    }
+
+    .card-2-proyectos-finalizados{
+        position:absolute;
+        background-color:none;
+        opacity:0.9;
+        top:63vh;
+        width:100%;
+        height:auto;
+        left:0vw;
+    }
+    .card-2-img-top-proyecto-finalizado{
+        display: none;
+    }
+    .card-2-title-proyecto-finalizados{
+        font-size:1rem;
+        font-family:'titilium';
+        text-align: center;
+        text-decoration:none;
+    }
+    .card-2-title-proyecto-finalizados::first-letter{
+        font-size: 3rem;
+    }
+    .card-2-texto-proyecto-finalizados{
+        font-family:'SourceSansPro';
+        font-size:1rem;
+    }
+    .card-2-texto-proyecto-finalizados:first-letter{
+        font-size:3rem;
+    }
+    .redes-sociales-proyectos-realizados{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top:180vh;
+        width:100%;
+        height:15%;
+        background-color: #262727;
+        opacity: 0.9;
+        font-family:"finger";
+    }
+    .redes-sociales-proyectos-realizados:hover{
+        background: rgba(38,39,39,0.9);
+        background: -webkit-linear-gradient(to top, #1e292e, #16222A); 
+        background: linear-gradient(to top, #141516, #1c2d38); 
+        transition: 1.5s;
+    }
+    .Git-Hub-proyectos-realizados{
+        flex-basis:50px;
+        flex-shrink:3;
+        position: absolute;
+        top:3vh;
+        left:40vw;
+        font-size:0.6rem;
+    }
+    .icono-Git-Hub-proyectos-realizados{
+        display: none;
+    }
+    .email-proyectos-realizados{
+        flex-basis:50px;
+        flex-shrink:3;
+        position: absolute;
+        top:9vh;
+        left:10vw;
+        width:90%;
+        font-size:0.6rem;
+    }
+    .icono-email-proyectos-realizados{
+        display: none;
+    }
+    .index-proyectos-realizados{
+        position:absolute;
+        display:block;
+        top:165vh;
+        left:38vw;
+        font-size:1rem;
+        padding:5px 10px;
+        border-radius:10px;
+        background-color: #050505;
+        width:30%;
+        cursor: pointer;
+        text-overflow:ellipsis;
+        box-shadow: 0 10px 16px 0 rgba(231, 214, 214, 0.2);
+
+    }
+    .index-proyectos-realizados:hover{
+        background-color: #242728;
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* altura */
 @media (max-height:800px){
@@ -478,7 +1001,6 @@
         margin-top:420px;
     }
 }
-
 @media (max-height:540px){
     .botton-conoceme-mas{
         margin-top:380px;
@@ -493,7 +1015,7 @@
         margin-top:750px;
     }
     .redes-sociales-sobre-mi{
-        margin-top:750px;
+        margin-top:1100px;
     } 
     .boton_ver_mas-3{
         margin-top:620px;

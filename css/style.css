@@ -167,8 +167,8 @@ body {
 }
 .botton-conoceme-mas{
     position:absolute;
-    top:150vh;
-    right:42vw;
+    top:163vh;
+    left:30vw;
     font-family:"SourceSansPro";
     font-size:1.5rem;
     cursor: pointer;
@@ -223,7 +223,7 @@ body {
     cursor: pointer;
     text-overflow:ellipsis;
     box-shadow: 0 10px 16px 0 rgba(231, 214, 214, 0.2);
-    top:158vh;
+    top:163vh;
 }
 .index:hover{
     background-color: #242728;

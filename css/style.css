@@ -289,9 +289,9 @@ body {
 .card-proyectos-finalizados{
     position:fixed;
     background-color: #3bb1b1;
-    opacity:0.7;
-    top:30vh;
-    width:30vw;
+    opacity:0.9;
+    top:45vh;
+    width:40%;
     height:auto;
     left:5vw;
 }
@@ -306,7 +306,7 @@ body {
     font-size:2rem;
     font-family:'titilium';
     text-align: center;
-    text-decoration:underline 2px red;
+    text-decoration:underline 2px;
 }
 .card-title-title-proyecto-finalizados:first-letter{
     font-size: 3rem;
@@ -336,8 +336,8 @@ body {
     position:fixed;
     background-color: #3bb1b1;
     opacity:1;
-    top:30vh;
-    width:30vw;
+    top:45vh;
+    width:40%;
     height:auto;
     right:5vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -354,7 +354,7 @@ body {
     font-size:2rem;
     font-family:'titilium';
     text-align: center;
-    text-decoration:underline 2px red;
+    text-decoration:underline 2px ;
 }
 .card-2-title-proyecto-finalizados::first-letter{
     font-size: 3rem;
@@ -370,12 +370,13 @@ body {
     display: flex;
     flex-direction: row;
     position: absolute;
-    top:125vh;
+    top:170vh;
     width:100%;
-    height: 10%;
+    height:4%;
     background-color: #262727;
     opacity: 0.9;
     font-family:"finger";
+    padding-top: 50px;
 }
 .redes-sociales-proyectos-realizados:hover{
     background: rgba(38,39,39,0.9);
@@ -390,13 +391,12 @@ body {
     top:0vh;
     left:10vw;
 }
-
 .email-proyectos-realizados{
     flex-basis:50px;
     flex-shrink:3;
     position: absolute;
     top:0vh;
-    right:10vw;
+    right:5vw;
 }
 .index-proyectos-realizados{
     position:absolute;

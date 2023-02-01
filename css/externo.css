@@ -19,12 +19,12 @@
     padding: 0;
 }
 .nav a {
-    padding: .5em .8em;
+    padding: .20em .50em;
     margin-left:150px;
     color: rgba(255, 255, 255, 0.8);
     position: relative;
     text-decoration: none;
-    font-size:1.7rem;
+    font-size:1.2rem;
 }
 .nav a::before,
 .nav a::after {

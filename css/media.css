@@ -1002,13 +1002,13 @@
 }
 @media (max-height:540px){
     .botton-conoceme-mas{
-        margin-top:380px;
+        margin-top:520px;
     }  
     .redes-sociales{
-        margin-top:500px;
+        margin-top:600px;
     }
     .index{
-        margin-top:300px;
+        margin-top:430px;
     }
     .index-sobre-mi{
         margin-top:750px;
@@ -1021,6 +1021,17 @@
     }
     .boton_ver_mas-4{
         margin-top:700px;
+    }
+}
+@media (max-height:420px){
+    .redes-sociales{
+        margin-top:700px;
+    }
+    .botton-conoceme-mas{
+        margin-top:655px;
+    }  
+    .index{
+        margin-top:550px;
     }
 }
 

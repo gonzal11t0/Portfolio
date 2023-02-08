@@ -1,0 +1,330 @@
+@media (max-width:900px){
+    #seccion-2{
+        height:130vh;
+    }
+    #seccion-4{
+        height:130vh;
+    }
+    .nombre{
+        font-size:1rem;
+        top:6vh;
+        left:40%;
+    }
+    .img-fluid { 
+        width:60%;
+        max-width:100%;
+        height:25%;
+        border:4px solid #000000;
+        margin-left:120px;
+    }
+    h1{
+        position: inherit;
+        margin-top:55px;
+        left:30%;
+    }
+    h2{
+        position: inherit;
+        font-size:3.5rem;
+        left:30%;
+    }
+    .btn{
+        font-size:1rem;
+    }
+    #card {
+        position: relative;
+        top:10vh;
+        width:60%;
+        height:250px;   
+        padding-left:50px; 
+        margin-bottom:190px;
+    }
+    #card div h1 {
+        font-size:1.1rem;
+    }
+    .container__typing{
+        position:absolute;
+        left:38%;
+        width:360px;   
+        margin-top:60px;
+        font-size:1.2rem;
+    }
+    .icono-html{
+        position: relative;
+        top:30vh;
+        left:10%;
+    }
+    .icono-css{
+        position: relative;
+        top:30vh;
+        left:20%;
+    }
+    .icono-javascript{
+        position: relative;
+        top:30vh;
+        left:0%;
+    }
+    .icono-sass{
+        position: relative;
+        top:30vh;
+        left:40%;
+    }
+    .icono-word{
+        position: relative;
+        top:28vh;
+        left:50%;
+    }
+    .icono-exel{
+        position: relative;
+        top:35vh;
+        left:0%;
+    }
+    .icono-bootstrap{
+        position: relative;
+        top:28vh;
+        left:70%;
+    }
+    #titulo-proyecto{
+        position: absolute;
+        font-size:2rem;
+        left:35%;
+        color: #ccc;
+    }
+    .uk-subnav>*{
+        position: absolute;
+        left:3%;
+        top:18vh;
+    }
+    .uk-subnav>.uk-active>a{
+        font-size:1.3rem;
+    }   
+    .uk-switcher{
+        position: absolute;
+        font-size:1rem;
+        top:35vh;
+        left:2%;
+    }
+    .circle_box span{
+        position: absolute;
+        left:46vw;
+        top:6vh;
+        transform: translate(-20%,-20%);
+        color: #fff;
+        font-size:40px;
+    }
+    .email-footer{
+        position: absolute;
+        top:-10vh;
+        left:30%;
+        font-size:1.2rem;
+    }
+    .linkedin-footer{
+        position: absolute;
+        top:6vh;
+        left:45%;
+        font-size:1.2rem;
+    }
+    .git-hub-footer{
+        position: absolute;
+        top:30vh;
+        left:45%;
+        font-size:1.2rem;
+    }
+    .copyrght-footer{
+        position: absolute;
+        top:46vh;
+        left:30%;
+        font-size:1.2rem;
+    }
+}
+@media (min-width:220px) and (max-width:500px){
+    #seccion-2{
+        height:160vh;
+    }
+    #seccion-3{
+        height:150vh;
+    }
+    #seccion-4{
+        height:155vh;
+    }
+    #seccion-5{
+        height:116vh;
+    }
+    box-icon{
+        display:none;
+    }
+    .nombre{
+        font-size:1rem;
+        top:2vh;
+        left:35%;
+    }
+    .img-fluid { 
+        display: none;
+    }
+    h1{
+        position: inherit;
+        margin-top:55px;
+        left:10%;
+    }
+    h2{
+        position: inherit;
+        font-size:3.5rem;
+        left:10%;
+    }
+    .btn-1{
+        font-size:1rem;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+    }
+    #seccion2{
+        height:350vh;
+    }
+    #card {
+        position: relative;
+        top:10vh;
+        width:75%;
+        height:200px;   
+        margin-bottom:10px;
+        padding-left:30px;
+    }
+    #card div h1 {
+        font-size:1.1rem;
+    }
+    .container2{
+        grid-template-columns: auto;
+    }
+    .container__typing{
+        position:absolute;
+        animation: none;
+        left:25%;
+        margin-top:60px;
+        font-size:0.8rem;
+    }
+    .icono-html{
+        position: relative;
+        top:20vh;
+        left:10%;
+        width:250px;
+    }
+    .icono-css{
+        position: relative;
+        top:20vh;
+        left:10%;
+        width:250px;
+    }
+    .icono-javascript{
+        position: relative;
+        top:30vh;
+        left:0%;
+    }
+    .icono-sass{
+        position: relative;
+        top:30vh;
+        left:40%;
+    }
+    .icono-word{
+        position: relative;
+        top:28vh;
+        left:50%;
+    }
+    .icono-exel{
+        position: relative;
+        top:35vh;
+        left:0%;
+    }
+    .icono-bootstrap{
+        position: relative;
+        top:28vh;
+        left:60%;
+    }
+    #titulo-proyecto{
+        position: absolute;
+        top:15vh;
+        font-size:1rem;
+        left:35%;
+        color: #ccc;
+    }
+    .uk-subnav>*{
+        position: absolute;
+        left:3%;
+        top:25vh;
+    }
+    .uk-subnav>.uk-active>a{
+        display: none;
+    }   
+    .uk-switcher{
+        position: absolute;
+        font-size:1rem;
+        top:35vh;
+        left:2%;
+    }
+    svg{
+        position: absolute;
+        width: 70px;
+        height:70px;    
+        transform: rotate(-90deg);
+        overflow: initial;
+        left:20vw;
+        top:220px;
+    } 
+    .circle_box span{
+        position: absolute;
+        left:40vw;
+        top:10vh;
+        transform:none;
+        color: #fff;
+        font-size:20px;
+    }
+    .circle_box strong{
+        position: relative;
+        left:20vw;
+        top:-9vh;
+    }
+    .email-footer{
+        position: absolute;
+        top:-10vh;
+        left:13%;
+        font-size:0.9rem;
+    }
+    .linkedin-footer{
+        position: absolute;
+        top:6vh;
+        left:45%;
+        font-size:0.9rem;
+    }
+    .git-hub-footer{
+        position: absolute;
+        top:30vh;
+        left:45%;
+        font-size:0.9rem;
+    }
+    .copyrght-footer{
+        position: absolute;
+        top:46vh;
+        left:30%;
+        font-size:1.2rem;
+    }
+}
+@media(max-height:844px){
+    #seccion-3{
+        height:155vh;
+    }
+}
+@media(max-height:782px){
+    #seccion-4{
+        height:165vh;
+    }
+}
+@media(max-height:580px){
+    #seccion-2{
+        height:125vh;
+    }
+}
+@media(max-height:480px){
+    .nombre{
+        top: 0vh;
+    }
+
+}

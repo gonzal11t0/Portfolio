@@ -1,0 +1,440 @@
+@mixin confi_global{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin position_absolute{
+    position: absolute
+}
+@mixin header{
+    display:block;
+    width:100%;
+    height:10%;
+    background:rgb(73, 71, 71);
+}
+@mixin nombre{
+    font-family: "Font Awesome 6 Brands";
+    font-size:1.5rem;
+    left:38%;
+    top:5vh;
+    color: #cee2eb;
+}
+@mixin container_fluid{
+    display: flex;
+    height:95vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+@mixin row{
+    --bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+@mixin btn{
+    position:relative;
+    padding:10px 15px;
+    margin-left:25vw;
+    text-decoration:none;
+    color:#fff;
+    z-index:2;
+}
+@mixin btn_1{
+    overflow: hidden;
+    border:4px solid #000000;
+    z-index: 2;
+    font-size:1.3rem;
+    margin-top:60px;
+}
+@mixin btn_1_before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height:200%;
+    left: 0;
+    top: -200%;
+    background: linear-gradient(to top, #434343, #000000);
+    border-radius:30%;
+    transition: all 0.4s ease;
+    z-index: -1;
+    border:9px solid #000000;
+}
+@mixin img_fluid{
+    width:60%;
+    max-width:100%;
+    height:25%;
+    border:6px solid #000000;
+}
+@mixin card{
+    position: relative;
+    top:10vh;
+    width:60%;
+    height:185px;   
+    padding-left:90px; 
+    margin-bottom:190px;
+}
+@mixin card_div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+@mixin container__typing{
+    position:absolute;
+    left:40%;
+    width:360px;   
+    margin-top:60px;
+    animation: animacion 8s steps(25), transparent .8s step-end infinite 
+    alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: underline;
+    color: wheat;
+    font-size:1.7rem;
+    border-right:3px solid;
+}
+@mixin icono_html{
+    position: relative;
+    top:30vh;
+    left:10%;
+}
+@mixin icono_css{
+    position: relative;
+    top:30vh;
+    left:20%;
+}
+@mixin icono_javascript{
+    position: relative;
+    top:30vh;
+    left:0%;
+}
+@mixin icono_sass{
+    position: relative;
+    top:30vh;
+    left:40%;
+}
+@mixin icono_word{
+    position: relative;
+    top:28vh;
+    left:50%;
+}
+@mixin icono_exel{
+    position: relative;
+    top:35vh;
+    left:0%;
+}
+@mixin icono_bootstrap{
+    position: relative;
+    top:28vh;
+    left:70%;
+}
+@mixin titulo_proyecto{
+    position: absolute;
+    font-size:3rem;
+    left:35%;
+    color: #ccc;
+}
+@mixin uk-switcher{
+    position: absolute;
+    font-size:1.5rem;
+    top:35vh;
+    left:2%;
+}
+@mixin svg{
+    position: absolute;
+    width: 200px;
+    height:200px;    
+    transform: rotate(-90deg);
+    overflow: initial;
+    left:39vw;
+    top:195px;
+}
+@mixin circle_box_nth-child_circle_nth-child{
+    stroke-dashoffset:calc(100 * 6);
+    stroke-dasharray:calc(100 * 6);
+    stroke-dashoffset:calc((100 * 6) - ((100 * 6) * 9) / 100); 
+    stroke-position: inside;
+}
+@mixin circule_box{
+    position: absolute;
+    font-size:30px;
+    color: #fff;
+    text-align: center;
+    top:25vh;
+}
+@mixin circle_box_span{
+    position: absolute;
+    left:43vw;
+    top:21vh;
+    transform: translate(-20%,-20%);
+    color: #fff;
+    font-size: 40px;
+}
+
+*{
+    @include confi_global();
+}
+#seccion-1{
+    height:100vh;
+}
+#seccion-2{
+    height:107vh;
+}
+#seccion-3{
+    height:100vh;
+}
+#seccion-4{
+    height:115vh;
+}
+#seccion-5{
+    height:115vh;
+}
+#header{
+    @include position_absolute();
+    @include header();
+}   
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.git-hub{
+    @include position_absolute();
+    top:2vh;
+    left:10%;
+}
+.fa-brands, .fab{
+    color: rgb(255, 255, 255);
+}
+.email{
+@include position_absolute();
+    top:2vh;
+    left:60%;
+}
+.linkedin{
+    @include position_absolute();
+    top:2vh;
+    right:10%;
+}
+.nombre{
+    @include position_absolute();
+    @include nombre();
+}
+.position-relative{
+    position: relative;
+}
+.container-fluid{
+    @include container_fluid();
+}
+h1{
+    position: inherit;
+    margin-top:55px;
+    left:40%;
+}
+h2{
+    position: inherit;
+    font-size:3.5rem;
+    left:40%;
+}
+
+.row{
+    @include row();
+}
+:root{
+    --color: #17a2ff;
+}
+.btn{
+    @include btn();
+}
+.btn-1{
+    @include btn_1();
+}
+.btn-1::before{
+    @include btn_1_before();
+}
+.btn-1:hover:before{
+    top: 0;
+    border-radius: 0%;
+}
+.img-fluid { 
+    @include img_fluid();
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+#card {
+    @include card();
+}
+#card div {
+    @include card_div()
+}
+#card div a{
+    color: #ffffff;
+    text-decoration:underline solid 3px red;
+    cursor:pointer;
+}
+#card .front {
+    background:linear-gradient(to top, #434343, #000000);
+    transform:perspective(500px) rotateY(0deg);
+}
+#card .back {
+    background: linear-gradient(to bottom, #000, #434343);
+    transform: perspective(500px) rotateY(180deg);
+}
+#card:hover .front { 
+    transform: perspective(500px) rotateY(180deg);
+}
+#card:hover .back { 
+    transform: perspective(500px) rotateY(360deg);
+}
+#card div h1 {
+    font-size:1.5rem;
+    color: wheat;
+}
+.container__typing{
+    @include container__typing();
+}
+@keyframes animacion {
+from {
+    width: 0px
+    }
+}
+@keyframes transparent {
+    50% {
+    border-color: transparent
+    }
+}
+.container2{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    height:80vh;
+}
+.icono-html{
+    @include icono_html();
+}
+.icono-css{
+    @include icono_css();
+}
+.icono-javascript{
+    @include icono_javascript();
+}
+.icono-sass{
+@include icono_sass();
+}
+.icono-word{
+@include icono_word();
+}
+.icono-exel{
+    @include icono_exel();
+}
+.icono-bootstrap{
+    @include icono_bootstrap();
+}   
+.container3{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto;
+}
+#titulo-proyecto{
+@include titulo_proyecto();
+}
+
+.uk-subnav>*{
+    position: absolute;
+    left:3%;
+    top:18vh;
+}
+.uk-subnav>.uk-active>a{
+    font-size:1.8rem;
+}   
+
+.uk-switcher{
+    @include uk-switcher()
+}
+svg{
+    @include svg()
+} 
+circle{
+    stroke-width:20px;
+    fill:none;  
+}
+circle:nth-child(1){ stroke: #fff }
+circle:nth-child(2){
+    stroke: rgb(13, 229, 128); 
+    position: relative;
+    z-index: 1;    
+}
+.circle_box:nth-child(1) circle:nth-child(2){
+    @include circle_box_nth-child_circle_nth-child()
+}
+.circle_box{
+    @include circule_box()
+}
+.circle_box div{
+    position: relative;
+}
+.circle_box span{
+@include circle_box_span()
+}
+.circle_box strong{
+    position: relative;
+    left:40vw;
+    top:-9vh;
+}
+.email-footer{
+    position: absolute;
+    top:-10vh;
+    left:30%;
+    font-size:2rem;
+}
+.linkedin-footer{
+    position: absolute;
+    top:6vh;
+    left:45%;
+    font-size:2rem;
+}
+.git-hub-footer{
+    position: absolute;
+    top:30vh;
+    left:45%;
+    font-size:2rem;
+}
+.copyrght-footer{
+    position: absolute;
+    top:46vh;
+    left:30%;
+    font-size:2rem;
+}
+.index{
+
+    right: 2vw;
+    padding: 5px 10px;
+    width: auto;
+    top:160vh;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    box-shadow: 0 5px 20px 10px rgba(213, 9, 9, 0.2);
+    border-radius:10px;
+    background-color: #df0c0c;
+}
+.index  a{
+    text-decoration:none;
+}
+.index:hover {
+    background-color: #242728;
+}
+.subir {
+    color: white;
+    text-decoration: none;
+    font-family: "SourceSansPro";
+}

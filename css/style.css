@@ -335,7 +335,7 @@ circle:nth-child(2) {
 .circle_box:nth-child(1) circle:nth-child(2) {
   stroke-dashoffset: 600;
   stroke-dasharray: 600;
-  stroke-dashoffset: 330;
+  stroke-dashoffset: 180;
   stroke-position: inside;
 }
 

@@ -252,7 +252,8 @@
         top:25vh;
     }
     .uk-subnav>.uk-active>a{
-        display: none;
+        display:block;
+        font-size:1rem;
     }   
     .uk-switcher{
         position: absolute;

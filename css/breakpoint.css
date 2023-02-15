@@ -253,17 +253,17 @@
     }
     .uk-subnav>.uk-active>a{
         display:block;
-        font-size:1rem;
+        font-size:0.9rem;
     }   
     .uk-switcher{
         position: absolute;
-        font-size:1rem;
-        top:38vh;
+        font-size:0.9rem;
+        top:39vh;
         left:2%;
     }
     .uk-switcher li {
         position:relative;
-        top:15vh;
+        top:13vh;
     }
     svg{
         position: absolute;

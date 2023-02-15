@@ -260,6 +260,10 @@
         top:35vh;
         left:2%;
     }
+    .uk-switcher li {
+        position:relative;
+        top:15vh;
+    }
     svg{
         position: absolute;
         width: 70px;

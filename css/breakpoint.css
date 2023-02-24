@@ -18,14 +18,16 @@
         margin-left:120px;
     }
     h1{
+        display: flex;
         position: inherit;
         margin-top:55px;
-        left:30%;
+        justify-content: center;
     }
     h2{
+        display: flex;
         position: inherit;
         font-size:3.5rem;
-        left:30%;
+        justify-content: center;
     }
     .btn{
         font-size:1rem;
@@ -33,13 +35,15 @@
     #card {
         position: relative;
         top:10vh;
-        width:60%;
+        width:62%;
         height:250px;   
-        padding-left:50px; 
+        padding-left:50px;
         margin-bottom:190px;
     }
     #card div h1 {
         font-size:1.1rem;
+        margin-left:5px;
+        left: 1px;
     }
     .container__typing{
         position:absolute;
@@ -161,17 +165,20 @@
         display: none;
     }
     h1{
+        display: flex;
         position: inherit;
         margin-top:55px;
-        left:10%;
+        justify-content: center;
     }
     h2{
+        display: flex;
         position: inherit;
         font-size:3.5rem;
-        left:10%;
+        justify-content: center;
     }
     .btn-1{
         font-size:1rem;
+        margin-left:15px;
     }
     .container {
         display: grid;
@@ -184,7 +191,7 @@
     #card {
         position: relative;
         top:10vh;
-        width:75%;
+        width:81%;
         height:200px;   
         margin-bottom:10px;
         padding-left:30px;
@@ -198,7 +205,7 @@
     .container__typing{
         position:absolute;
         animation: none;
-        left:25%;
+        left:22%;
         margin-top:60px;
         font-size:0.8rem;
     }
@@ -241,7 +248,7 @@
     }
     #titulo-proyecto{
         position: absolute;
-        top:15vh;
+        top:10vh;
         font-size:1rem;
         left:35%;
         color: #ccc;
@@ -249,30 +256,30 @@
     .uk-subnav>*{
         position: absolute;
         left:3%;
-        top:25vh;
+        top:30vh;
     }
     .uk-subnav>.uk-active>a{
-        display:block;
+        display:inline;
         font-size:0.9rem;
     }   
+    .uk-switcher li {
+        position:relative;
+        top:23vh;
+    }
     .uk-switcher{
         position: absolute;
         font-size:0.9rem;
-        top:49vh;
+        top:72vh;
         left:2%;
-    }
-    .uk-switcher li {
-        position:relative;
-        top:13vh;
     }
     svg{
         position: absolute;
-        width: 70px;
-        height:70px;    
+        width: 10px;
+        height:10px;    
         transform: rotate(-90deg);
         overflow: initial;
-        left:20vw;
-        top:220px;
+        left:35vw;
+        top:235px;
     } 
     .circle_box span{
         position: absolute;
@@ -307,9 +314,12 @@
     }
     .copyrght-footer{
         position: absolute;
-        top:46vh;
+        top:48vh;
         left:30%;
         font-size:1.2rem;
+    }
+    .index{
+        left: 5px;
     }
 }
 @media(max-height:844px){

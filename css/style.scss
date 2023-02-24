@@ -161,7 +161,7 @@ flex-wrap: wrap;
 @mixin circle_box_nth-child_circle_nth-child{
     stroke-dashoffset:calc(100 * 6);
     stroke-dasharray:calc(100 * 6);
-    stroke-dashoffset:calc((100 * 6) - ((100 * 6) *24) / 100); 
+    stroke-dashoffset:calc((100 * 6) - ((100 * 6) *60) / 100); 
     stroke-position: inside;
 }
 @mixin circule_box{
@@ -235,14 +235,16 @@ flex-wrap: wrap;
     @include container_fluid();
 }
 h1{
+    display: flex;
     position: inherit;
     margin-top:55px;
-    left:40%;
+    justify-content: center;
 }
 h2{
+    display: flex;
     position: inherit;
     font-size:3.5rem;
-    left:40%;
+    justify-content: center;
 }
 
 .row{
@@ -282,6 +284,7 @@ h2{
     color: #ffffff;
     text-decoration:underline solid 3px red;
     cursor:pointer;
+
 }
 #card .front {
     background:linear-gradient(to top, #434343, #000000);
@@ -300,6 +303,7 @@ h2{
 #card div h1 {
     font-size:1.5rem;
     color: wheat;
+    left: 50px
 }
 .container__typing{
     @include container__typing();
@@ -355,7 +359,7 @@ from {
     top:18vh;
 }
 .uk-subnav>.uk-active>a{
-    font-size:1.8rem;
+    font-size:1rem;
 }   
 
 .uk-switcher{

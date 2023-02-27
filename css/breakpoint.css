@@ -258,6 +258,7 @@
         left:3%;
         top:30vh;
     }
+
     .uk-subnav>.uk-active>a{
         display:inline;
         font-size:0.9rem;
@@ -272,6 +273,37 @@
         top:72vh;
         left:2%;
     }
+    .dropdown-container{
+        position:absolute;
+    }
+    .dropdown-container ul{
+        position: absolute;
+        margin:0;
+        max-height:0px;
+        overflow: hidden;
+        transition:  all 2s;
+        padding: 0;
+    }
+    .dropdown-container ul li a{
+        color: white;
+    }
+    .dropdown-container:hover ul li{
+        width:300px;
+        color: white;
+        background-color: #434343;
+    }
+    .dropdown-container ul.show{
+        position:relative;
+        max-height:400px;
+        width:200px;
+        overflow: hidden;
+        transition: all 2s;
+    }
+
+
+
+
+
     svg{
         position: absolute;
         width: 10px;

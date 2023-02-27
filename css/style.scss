@@ -147,7 +147,7 @@ flex-wrap: wrap;
     position: absolute;
     font-size:1.5rem;
     top:35vh;
-    left:2%;
+    left:0%;
 }
 @mixin svg{
     position: absolute;
@@ -348,22 +348,48 @@ from {
     display: grid;
     grid-template-columns:auto;
     grid-template-rows: auto;
+    grid-area: 5px
 }
 #titulo-proyecto{
 @include titulo_proyecto();
 }
-
 .uk-subnav>*{
     position: absolute;
-    left:3%;
+    left:1%;
     top:18vh;
+    padding-left:0px;
 }
 .uk-subnav>.uk-active>a{
     font-size:1rem;
 }   
-
 .uk-switcher{
     @include uk-switcher()
+}
+.dropdown-container{
+    position:absolute;
+}
+.dropdown-container ul{
+    position: absolute;
+    margin:0;
+    max-height:0px;
+    overflow: hidden;
+    transition:  all 2s;
+    padding: 0;
+}
+.dropdown-container ul li a{
+    color: white;
+}
+.dropdown-container:hover ul li{
+    width:300px;
+    color: white;
+    background-color: #434343;
+}
+.dropdown-container ul.show{
+    position:relative;
+    max-height:400px;
+    width:200px;
+    overflow: hidden;
+    transition: all 2s;
 }
 svg{
     @include svg()

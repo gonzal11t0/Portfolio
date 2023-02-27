@@ -35,8 +35,9 @@ btn.mouseup(function () {
     $(this).css("display","none")
 });
 
-
-
+this.document.querySelector(".dropdown-container").addEventListener("click",function(){
+    document.querySelector(".dropdown-container ul").classList.toggle("show");
+})
 });
 
     

@@ -48,7 +48,7 @@
     .container__typing{
         position:absolute;
         left:38%;
-        width:360px;   
+        width:350px;   
         margin-top:60px;
         font-size:1.2rem;
     }
@@ -205,46 +205,53 @@
     .container__typing{
         position:absolute;
         animation: none;
-        left:22%;
+        left:21%;
+        width:165px; 
+        max-width:100%;
         margin-top:60px;
         font-size:0.8rem;
     }
     .icono-html{
         position: relative;
         top:20vh;
-        left:10%;
-        width:250px;
+        left:8%;
+        width:130px;
     }
     .icono-css{
         position: relative;
         top:20vh;
-        left:10%;
-        width:250px;
+        left:30%;
+        width:130px;
     }
     .icono-javascript{
         position: relative;
-        top:30vh;
-        left:0%;
+        top:20vh;
+        left:41%;
+        width:130px;
     }
     .icono-sass{
         position: relative;
-        top:30vh;
-        left:40%;
+        top:20vh;
+        left:10%;
+        width:130px;
     }
     .icono-word{
         position: relative;
-        top:28vh;
-        left:50%;
+        top:20vh;
+        left:30%;
+        width:130px;
     }
     .icono-exel{
         position: relative;
-        top:35vh;
-        left:0%;
+        top:20vh;
+        left:41%;
+        width:130px;
     }
     .icono-bootstrap{
         position: relative;
-        top:28vh;
-        left:60%;
+        top:20vh;
+        left:10%;
+        width:130px;
     }
     #titulo-proyecto{
         position: absolute;
